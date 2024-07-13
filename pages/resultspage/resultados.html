@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de búsqueda</title>
+    <link rel="stylesheet" href="/pages/resultspage/resultados.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+		rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+		rel="stylesheet">
+
+</head>
+<body>
+    <header class="header-section">
+		<a href="/pages/homepage/index.html"><img id="logo" src="/img/tas.png" alt="logo"></a>
+		<div class="search-container">
+			<i class="fa-solid fa-magnifying-glass"></i>
+			<form id="searchForm">
+				<input type="text" id="searchInput" placeholder="Buscar...">
+			</form>
+		</div>
+		<nav class="nav-section">
+			<ul>
+				<li><a href="/pages/inventarypage/inventary.html">INVENTARIO</a></li>
+				<li><a href="/pages/aboutuspage/aboutus.html">NOSOTROS</a></li>
+				<li><a href="/pages/contactpage/contact.html">CONTACTO</a></li>
+				<li><a class="icon-star" href="/pages/favoritespage/favoritos.html">FAVORITOS</a></li>
+				<li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+			</ul>
+		</nav>
+		<div class="menu-icon" onclick="toggleMenu()"><i class="fa-solid fa-caret-down"></i></div>
+	</header>
+    <h1>RESULTADOS DE BUSQUEDA</h1>
+    <div id="searchResults"></div>
+
+	<script src="/pages/javascript/script.js"></script>
+<script src="https://kit.fontawesome.com/8c436d0797.js" crossorigin="anonymous"></script>
+<script src="/pages/resultspage/resultados.js"></script>
+
+</body>
+</html>

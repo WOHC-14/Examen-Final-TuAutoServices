@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario</title>
+    <link rel="stylesheet" href="inventary.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-section">
+        <a href="/pages/homepage/index.html"><img id="logo" src="/img/tas.png" alt="logo"></a>
+        <div class="search-container">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <form id="searchForm">
+                <input type="text" id="searchInput" placeholder="Buscar...">
+            </form>
+        </div>
+        <nav class="nav-section">
+            <ul>
+                <li><a href="/pages/inventarypage/inventary.html">INVENTARIO</a></li>
+                <li><a href="/pages/aboutuspage/aboutus.html">NOSOTROS</a></li>
+                <li><a href="/pages/contactpage/contact.html">CONTACTO</a></li>
+                <li><a class="icon-star" href="/pages/favoritespage/favoritos.html">FAVORITOS</a></li>
+                <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+        </nav>
+        <div class="menu-icon" onclick="toggleMenu()"><i class="fa-solid fa-caret-down"></i></div>
+    </header>
+
+
+    <h1>INVENTARIO</h1>
+
+    <section id="filter-search">
+        <div class="filters-sections">
+            <label for="brand">Marca del Carro</label>
+            <select id="brand">
+                <option value="">Todas</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Honda">Honda</option>
+                <option value="Ford">Ford</option>
+                <option value="Mazda">Mazda</option>
+                <option value="Chevrolet">Chevrolet</option>
+                <option value="Hyundai">Hyundai</option>
+                <option value="Seat">Seat</option>
+                <option value="Nissan">NIssan</option>
+                <option value="Volkswagen">Volkswagen</option>
+                <option value="Mitsubishi">Mitsubishi</option>
+                <option value="Kia">Kia</option>
+            </select>
+        </div>
+        <div class="filters-sections">
+            <label for="price-min">Precio Mínimo</label>
+            <input type="range" id="price-min" min="5000" max="50000" step="1000" value="5000">
+            <span id="price-min-display">5000</span>
+        </div>
+        <div class="filters-sections">
+            <label for="price-max">Precio Máximo</label>
+            <input type="range" id="price-max" min="5000" max="50000" step="1000" value="50000">
+            <span id="price-max-display">50000</span>
+
+            <button id="applyFilters">Aplicar Filtros</button>
+            <button id="resetFilters">Quitar Filtros</button>
+        </div>
+    </section>
+    <main id="main-inventary">
+        <div class="card" data-id="p1" data-brand="Ford" data-price="28500">
+            <img src="/img/inventario/ford-escape.png" alt="Ford Escape">
+            <div class="name-price">
+                <h5>Ford Escape</h5>
+                <h5>$28,500</h5>
+            </div>
+            <p class="description">Un SUV compacto que ofrece opciones de motorización híbridas y
+                plug-in híbridas.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p1">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        </div>
+        <div class="card" data-id="p2" data-brand="Honda" data-price="29000">
+            <img src="/img/inventario/honda-crv.png" alt="Honda CRV">
+            <div class="name-price">
+                <h5>Honda CR-V</h5>
+                <h5>$29,000</h5>
+            </div>
+            <p class="description">Un SUV compacto con amplio espacio interior y características
+                avanzadas de seguridad. </p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p2">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p3" data-brand="Kia" data-price="28000">
+            <img src="/img/inventario/kia-forte.png" alt="Kia Forte">
+            <div class="name-price">
+                <h5>Kia Forte</h5>
+                <h5>$28,000</h5>
+            </div>
+            <p class="description">Un sedán compacto que combina estilo, tecnología y eficiencia de
+                combustible.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p3">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p4" data-brand="Chevrolet" data-price="25000">
+            <img src="/img/inventario/Malibu.png" alt="Chevrolet Malibu">
+            <div class="name-price">
+                <h5>Chevrolet Malibu</h5>
+                <h5>$25,000</h5>
+            </div>
+            <p class="description">Un sedán mediano que combina estilo, tecnología y eficiencia. Ofrece
+                un interior espacioso.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p4">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p5" data-brand="Mazda" data-price="28000">
+            <img src="/img/inventario/mazda-cx-5.png" alt="mazda-cx-5">
+            <div class="name-price">
+                <h5>Mazda CX-5</h5>
+                <h5>$28,000</h5>
+            </div>
+            <p class="description">Un SUV compacto con un diseño elegante, interior de alta calidad y
+                manejo ágil. </p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p5">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p6" data-brand="Mitsubishi" data-price="16000">
+            <img src="/img/inventario/mirage.png" alt="Mitsubishi Mirage">
+            <div class="name-price">
+                <h5>Mitsubishi Mirage</h5>
+                <h5>$16,000</h5>
+            </div>
+            <p class="description">Un subcompacto económico que destaca por su eficiencia de
+                combustible y precio accesible.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p6">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p7" data-brand="Nissan" data-price="27000">
+            <img src="/img/inventario/nissan-rogue.png" alt="Nissan Rogue">
+            <div class="name-price">
+                <h5>Nissan Rogue</h5>
+                <h5>$27,000</h5>
+            </div>
+            <p class="description">Un SUV con un diseño moderno y una buena combinación de
+                potencia y eficiencia de combustible.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p7">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p8" data-brand="Volkswagen" data-price="29000">
+            <img src="/img/inventario/tiguan.webp" alt="Volkswagen Tiguan">
+            <div class="name-price">
+                <h5>Volkswagen Tiguan</h5>
+                <h5>$29,000</h5>
+            </div>
+            <p class="description">Un SUV con un interior de alta calidad y varias opciones de
+                motorización, incluyendo híbrida.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p8">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p9" data-brand="Toyota" data-price="28000">
+            <img src="/img/inventario/toyota-rav4.png" alt="Toyota RAV4">
+            <div class="name-price">
+                <h5>Toyota RAV4</h5>
+                <h5>$28,000</h5>
+            </div>
+            <p class="description">Un carro con buena economía de combustible y varias opciones de
+                motorización, incluyendo híbrido.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p9">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p10" data-brand="Hyundai" data-price="27500">
+            <img src="/img/inventario/tucson.png" alt="Hyundai Tucson">
+            <div class="name-price">
+                <h5>Hyundai Tucson</h5>
+                <h5>$27,500</h5>
+            </div>
+            <p class="description">Un carro con un diseño audaz, tecnología avanzada y una variedad de
+                opciones de motorización.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p10">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p11" data-brand="Honda" data-price="45500">
+            <img src="/img/inventario/civic.png" alt="Honda Civic">
+            <div class="name-price">
+                <h5>Honda Civic</h5>
+                <h5>$45,500</h5>
+            </div>
+            <p class="description">Un hatchback de alto rendimiento. Equipado con un motor turbo de 2.0 litros y
+                tecnología avanzada.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p11">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p12" data-brand="Toyota" data-price="50000">
+            <img src="/img/inventario/hilux.png" alt="Toyota Hilux">
+            <div class="name-price">
+                <h5>Toyota Hilux GR</h5>
+                <h5>$50,000</h5>
+            </div>
+            <p class="description">Un modelo de alta gama diseñado para ofrecer un rendimiento superior en cualquier
+                terreno.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p12">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p13" data-brand="Chevrolet" data-price="24500">
+            <img src="/img/inventario/equinox.png" alt="Chevrolet Equinox">
+            <div class="name-price">
+                <h5>Chevrolet Equinox</h5>
+                <h5>$24,500</h5>
+            </div>
+            <p class="description">SUV compacto versátil y eficiente, ideal para familias y aventuras diarias. Con un
+                motor turbo de 1.5 litros.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p13">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p14" data-brand="Toyota" data-price="34500">
+            <img src="/img/inventario/corolla.png" alt="Toyota Corolla">
+            <div class="name-price">
+                <h5>Toyota Corolla</h5>
+                <h5>$34,500</h5>
+            </div>
+            <p class="description"> Basado en el popular sedán Corolla, el Corolla Cross ofrece un poco más de espacio y
+                altura, ideal para familias.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p14">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p15" data-brand="Toyota" data-price="40000">
+            <img src="/img/inventario/camrytrd.png" alt="Toyota Camry">
+            <div class="name-price">
+                <h5>Toyota Camry TRD</h5>
+                <h5>$40,000</h5>
+            </div>
+            <p class="description">Este modelo deportivo cuenta con un motor V6 de 3.5 litros que entrega 301 caballos
+                de fuerza y buena suspensión.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p15">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p16" data-brand="Ford" data-price="43000">
+            <img src="/img/inventario/mustang.png" alt="Ford Mustang">
+            <div class="name-price">
+                <h5>Ford Mustang</h5>
+                <h5>$43,000</h5>
+            </div>
+            <p class="description">Este deportivo ofrece una mezcla perfecta de potencia, tecnología avanzada y estilo
+                icónico.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p16">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p17" data-brand="Hyundai" data-price="44500">
+            <img src="/img/inventario/tacoma.png" alt="Hyundai Tacoma">
+            <div class="name-price">
+                <h5>Toyota Tacoma</h5>
+                <h5>$44,500</h5>
+            </div>
+            <p class="description">Una camioneta mediana diseñada para ofrecer una combinación de durabilidad y
+                modernidad.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p17">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p18" data-brand="Mazda" data-price="23500">
+            <img src="/img/inventario/mazda3.png" alt="Mazda 3">
+            <div class="name-price">
+                <h5>Mazda 3</h5>
+                <h5>$23,500</h5>
+            </div>
+            <p class="description">Un automóvil compacto disponible en versiones sedán y hatchback, conocido por su
+                estilo elegante y dinámico.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p18">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p19" data-brand="Mazda" data-price="26500">
+            <img src="/img/inventario/cx9.webp" alt="Mazda cx9">
+            <div class="name-price">
+                <h5>Mazda CX-9</h5>
+                <h5>$26,500</h5>
+            </div>
+            <p class="description">Un SUV de tres filas que destaca por su diseño elegante, su manejo ágil y su lujoso
+                interior.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p19">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p20" data-brand="Mazda" data-price="32500">
+            <img src="/img/inventario/mx5.png" alt="Mazda mx5">
+            <div class="name-price">
+                <h5>Mazda MX-5</h5>
+                <h5>$32,500</h5>
+            </div>
+            <p class="description">Deportivo ligero, conocido por su manejo ágil, diseño elegante y experiencia de
+                conducción divertida.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p20">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p21" data-brand="Honda" data-price="25000">
+            <img src="/img/inventario/accord.png" alt="Honda Accord">
+            <div class="name-price">
+                <h5>Honda Accord</h5>
+                <h5>$25,000</h5>
+            </div>
+            <p class="description">Un sedán mediano que combina elegancia, eficiencia y tecnología avanzada.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p21">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p22" data-brand="Hyundai" data-price="35000">
+            <img src="/img/inventario/pilot.webp" alt="Hyundai Pilot">
+            <div class="name-price">
+                <h5>Honda Pilot</h5>
+                <h5>$35,000</h5>
+            </div>
+            <p class="description">SUV de tres filas que combina comodidad, tecnología avanzada y una capacidad robusta
+                para toda la familia.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p22">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p23" data-brand="Honda" data-price="38000">
+            <img src="/img/inventario/ridgeline.avif" alt="Honda Ridgeline">
+            <div class="name-price">
+                <h5>Honda Ridgeline</h5>
+                <h5>$38,000</h5>
+            </div>
+            <p class="description">Una camioneta pickup mediana que combina versatilidad, comodidad y rendimiento
+                robusto.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p23">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p24" data-brand="Chevrolet" data-price="32000">
+            <img src="/img/inventario/impala.webp" alt="Chevrolet Impala">
+            <div class="name-price">
+                <h5>Chevrolet Impala</h5>
+                <h5>$32,000</h5>
+            </div>
+            <p class="description">Un sedán de tamaño completo con un interior espacioso y un maletero amplio. </p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p24">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p25" data-brand="Chevrolet" data-price="33500">
+            <img src="/img/inventario/colorado.webp" alt="Chevrolet Colorado">
+            <div class="name-price">
+                <h5>Chevrolet Colorado</h5>
+                <h5>$33,500</h5>
+            </div>
+            <p class="description">Amplia gama de configuraciones de cabina, así como tres opciones de motor de mucha
+                potencia.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p25">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p26" data-brand="Hyundai" data-price="23000">
+            <img src="/img/inventario/elantra.webp" alt="Hyundai Elantra">
+            <div class="name-price">
+                <h5>Hyundai Elantra</h5>
+                <h5>$23,000</h5>
+            </div>
+            <p class="description">Sedán compacto que recibió un rediseño para este año modelo. Cuenta con un nuevo
+                diseño frontal más afilado.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p26">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p27" data-brand="Hyundai" data-price="26000">
+            <img src="/img/inventario/sonata.webp" alt="Hyundai Sonata">
+            <div class="name-price">
+                <h5>Hyundai Sonata</h5>
+                <h5>$26,000</h5>
+            </div>
+            <p class="description">Equipado con un motor 2.5L de 191 caballos de fuerza acoplado a una transmisión
+                automática de 8 velocidades.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p27">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p28" data-brand="Hyundai" data-price="29000">
+            <img src="/img/inventario/santafe.webp" alt="Hyundai santafe">
+            <div class="name-price">
+                <h5>Hyundai Santa Fe</h5>
+                <h5>$29,000</h5>
+            </div>
+            <p class="description">Un SUV de tamaño mediano con un diseño atractivo y un interior espacioso.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p28">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p29" data-brand="Ford" data-price="26000">
+            <img src="/img/inventario/fusion.webp" alt="Ford Fusion">
+            <div class="name-price">
+                <h5>Ford Fusion</h5>
+                <h5>$26,000</h5>
+            </div>
+            <p class="description">Un sedán bien equipado con un motor 2.5L de 175 caballos de fuerza acoplado a una
+                transmisión automática.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p29">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p30" data-brand="Seat" data-price="18000">
+            <img src="/img/inventario/ibiza.png" alt="Seat Ibiza">
+            <div class="name-price">
+                <h5>Seat Ibiza</h5>
+                <h5>$18,000</h5>
+            </div>
+            <p class="description">Un hatchback compacto que destaca por su diseño moderno, eficiencia y funcionalidad.
+            </p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p30">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p31" data-brand="Seat" data-price="22000">
+            <img src="/img/inventario/arona.png" alt="Seat Arona">
+            <div class="name-price">
+                <h5>Seat Arona</h5>
+                <h5>$22,000</h5>
+            </div>
+            <p class="description">SUV compacto que combina estilo deportivo con funcionalidad urbana y tecnología
+                avanzada.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p31">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p32" data-brand="Seat" data-price="28000">
+            <img src="/img/inventario/ateca.png" alt="Seat Ateca">
+            <div class="name-price">
+                <h5>Seat Ateca</h5>
+                <h5>$28,000</h5>
+            </div>
+            <p class="description">SUV compacto y deportivo. Ofrece un equilibrio entre estilo urbano, rendimiento
+                dinámico y tecnología avanzada.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p32">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p33" data-brand="Nissan" data-price="20000">
+            <img src="/img/inventario/sentra.png" alt="Nissan Sentra">
+            <div class="name-price">
+                <h5>Nissan Sentra</h5>
+                <h5>$20,000</h5>
+            </div>
+            <p class="description">Sedán compacto que destaca por su diseño moderno, confort interior y tecnología
+                avanzada. </p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p33">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p34" data-brand="Nissan" data-price="25000">
+            <img src="/img/inventario/altima.webp" alt="Nissan Altima">
+            <div class="name-price">
+                <h5>Nissan Altima</h5>
+                <h5>$25,000</h5>
+            </div>
+            <p class="description">Sedán mediano que combina estilo elegante con rendimiento confiable y tecnología
+                avanzada.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p34">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p35" data-brand="Nissan" data-price="42000">
+            <img src="/img/inventario/titan.png" alt="Nissan Titan">
+            <div class="name-price">
+                <h5>Nissan Titan 2024</h5>
+                <h5>$42,000</h5>
+            </div>
+            <p class="description">Una pickup robusta que combina potencia, capacidad de carga y tecnología avanzada.
+            </p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p35">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p36" data-brand="Volkswagen" data-price="21500">
+            <img src="/img/inventario/jetta.png" alt="Volkswagen Jetta">
+            <div class="name-price">
+                <h5>Volkswagen Jetta</h5>
+                <h5>$21,500</h5>
+            </div>
+            <p class="description">Sedán compacto conocido por su diseño elegante, confort interior y eficiencia de
+                combustible.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p36">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p37" data-brand="Volkswagen" data-price="17000">
+            <img src="/img/inventario/golf.png" alt="Volkswagen Golf">
+            <div class="name-price">
+                <h5>Volkswagen Golf</h5>
+                <h5>$17,000</h5>
+            </div>
+            <p class="description">Hatchback compacto reconocido por su diseño icónico, dinámica de conducción ágil y
+                tecnología avanzada.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p37">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p38" data-brand="Mitsubishi" data-price="28000">
+            <img src="/img/inventario/outlander.png" alt="Mitsubishi Outlander">
+            <div class="name-price">
+                <h5>Mitsubishi Outlander</h5>
+                <h5>$28,000</h5>
+            </div>
+            <p class="description">SUV familiar que combina un diseño robusto con espacio interior versátil y tecnología
+                avanzada.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p38">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p39" data-brand="Mitsubishi" data-price="26500">
+            <img src="/img/inventario/eclipse.png" alt="Mitsubishi Eclipse">
+            <div class="name-price">
+                <h5>Mitsubishi Eclipse</h5>
+                <h5>$26,500</h5>
+            </div>
+            <p class="description">Este SUV ofrece un equilibrio entre estilo deportivo y funcionalidad para adaptarse a
+                cualquier sitación.</p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p39">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+        <div class="card" data-id="p40" data-brand="Mitsubishi" data-price="48000">
+            <img src="/img/inventario/montero.png" alt="Mitsubishi Montero">
+            <div class="name-price">
+                <h5>Mitsubishi Montero</h5>
+                <h5>$48,000</h5>
+            </div>
+            <p class="description">Una SUV de lujo y alto desempeño con un diseño audaz y refinado. </p>
+            <a class="product-link" href="/pages/detailspage/details.html?id=p40">VER DETALLES</a>
+            <button class="button-favorite" onclick="guardarEnFavoritos(this)">
+                <i class="fa-regular fa-star"></i>
+            </button>
+        </div>
+
+
+    </main>
+
+    <footer class="footer-section">
+        <div class="area-1">
+            <div class="area">
+                <figure>
+                    <a href="index.html">
+                        <img src="/img/tas.png" alt="logo">
+                    </a>
+                </figure>
+            </div>
+            <div class="area">
+                <h4>NAVEGACIÓN</h4>
+                <ul>
+                    <a href="/pages/inventarypage/inventary.html">
+                        <li>Inventario</li>
+                    </a>
+                    <a href="/pages/aboutuspage/aboutus.html">
+                        <li>Nosotros</li>
+                    </a>
+                    <a href="/pages/contactpage/contact.html">
+                        <li>Contacto</li>
+                    </a>
+                    <a href="/pages/favoritespage/favoritos.html">
+                        <li>Favoritos</li>
+                    </a>
+                    </a>
+                </ul>
+            </div>
+            <div class="area">
+                <h4>CONTÁCTANOS</h4>
+                <section class="social">
+                    <a href="#" class="fa-brands fa-square-whatsapp"></a>
+                    <a href="#" class="fa-brands fa-square-facebook"></a>
+                    <a href="#" class="fa-brands fa-square-instagram"></a>
+                    <a href="#" class="fa-brands fa-square-x-twitter"></a>
+                </section>
+            </div>
+        </div>
+        <div class="area-2">
+            <small>&copy; 2024 <b>TuAutoServices</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+
+
+
+    <script src="https://kit.fontawesome.com/8c436d0797.js" crossorigin="anonymous"></script>
+    <script src="/pages/inventarypage/inventary.js"></script>
+    <script src="/pages/javascript/script.js"></script>
+</body>
+
+</html>

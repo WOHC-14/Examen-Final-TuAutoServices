@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+		rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<title>Inicio</title>
+</head>
+
+<body>
+	<header class="header-section">
+		<a href="index.html"><img id="logo" src="/img/tas.png" alt="logo"></a>
+		<div class="search-container">
+			<i class="fa-solid fa-magnifying-glass"></i>
+			<form id="searchForm">
+				<input type="text" id="searchInput" placeholder="Buscar...">
+			</form>
+		</div>
+		<nav class="nav-section">
+			<ul>
+				<li><a href="/pages/inventarypage/inventary.html">INVENTARIO</a></li>
+				<li><a href="/pages/aboutuspage/aboutus.html">NOSOTROS</a></li>
+				<li><a href="/pages/contactpage/contact.html">CONTACTO</a></li>
+				<li><a class="icon-star" href="/pages/favoritespage/favoritos.html">FAVORITOS</a></li>
+				<li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+			</ul>
+		</nav>
+		<div class="menu-icon" onclick="toggleMenu()"><i class="fa-solid fa-caret-down"></i></div>
+	</header>
+	<main>
+		<section class="hero-section">
+			<h1 class="title-hero">ENCUENTRA EL CARRO QUE NECESITAS <span class="span-hero">¡AQUÍ!</span></h1>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<h2 class="car-model">Honda Civic</h2>
+						<a href="/pages/detailspage/details.html?id=p11"><img src="/img/hero/civic.jpg" alt="Imagen1" /></a>
+					</div>
+					<div class="swiper-slide">
+						<h2 class="car-model">Toyota Corolla</h2>
+						<a href="/pages/detailspage/details.html?id=p14"><img src="/img/hero/corolla.webp" alt="Imagen2" /></a>
+					</div>
+					<div class="swiper-slide">
+						<h2 class="car-model">Chevrolet Equinox</h2>
+						<a href="/pages/detailspage/details.html?id=p13"><img src="/img/hero/equinox.jpeg" alt="Imagen3" /></a>
+					</div>
+					<div class="swiper-slide">
+						<h2 class="car-model">Toyota Hilux</h2>
+						<a href="/pages/detailspage/details.html?id=p12"><img src="/img/hero/hilux.jpeg" alt="Imagen4" /></a>
+					</div>
+					<div class="swiper-slide">
+						<h2 class="car-model">Ford Mustang</h2>
+						<a href="/pages/detailspage/details.html?id=p16"><img src="/img/hero/mustang.webp" alt="Imagen5" /></a>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+
+		<section class="logos-section">
+			<h2 class="title-logos">NUESTRAS MARCAS ALIADAS</h2>
+
+			<div class="logos-area">
+				<img src="/img/logos/Volkswagen-logo.png" alt="Chevrolet logo" />
+
+				<img src="/img/logos/Ford-logo.png" alt="Ford logo" />
+
+				<img src="/img/logos/Honda-logo.png" alt="Honda logo" />
+
+				<img src="/img/logos/Hyundai-logo.png" alt="Hyundai logo" />
+
+				<img src="/img/logos/Kia-logo.png" alt="Kia logo" />
+
+				<img src="/img/logos/Mitsubishi-logo.png" alt="Mazda logo" />
+
+				<img src="/img/logos/Mazda-logo.png" alt="Mitsubishi logo" />
+
+				<img src="/img/logos/Nissan-logo.png" alt="Nissan logo" />
+
+				<img src="/img/logos/Seat-logo.png" alt="Seat logo" />
+
+				<img src="/img/logos/toyota-logo.png" alt="Toyota logo" />
+
+				<img src="/img/logos/Chevrolet-logo.png" alt="Volkswagen logo" />
+
+			</div>
+
+		</section>
+
+		<section class="newcars-section">
+			<h2 class="new-inventary-title">NUEVOS EN EL INVENTARIO</h2>
+			<div class="cars-container">
+				<div class="cars-wrapper">
+					<div class="cars-slide">
+						<div class="card" data-id="p1">
+							<img src="/img/nuevos/ford-escape.png" alt="">
+							<div class="name-price">
+								<h5>Ford Escape</h5>
+								<h5>$28,500</h5>
+							</div>
+							<p class="description">Un SUV compacto que ofrece opciones de motorización híbridas y
+								plug-in híbridas.</p>
+							<a class="product-link" href="/pages/detailspage/details.html?id=p1">VER DETALLES</a>
+							<button class="button-favorite" onclick="guardarEnFavoritos(this)">
+								<i class="fa-regular fa-star"></i>
+							</button>
+						</div>
+					</div>
+					<div class="cars-slide">
+						<div class="card" data-id="p2">
+							<img src="/img/nuevos/honda-crv.png" alt="">
+							<div class="name-price">
+								<h5>Honda CR-V</h5>
+								<h5>$29,000</h5>
+							</div>
+							<p class="description">Un SUV compacto con amplio espacio interior y características
+								avanzadas de seguridad. </p>
+							<a class="product-link" href="/pages/detailspage/details.html?id=p2">VER DETALLES</a>
+							<button class="button-favorite" onclick="guardarEnFavoritos(this)">
+								<i class="fa-regular fa-star"></i>
+							</button>
+						</div>
+					</div>
+					<div class="cars-slide">
+						<div class="card" data-id="p3">
+							<img src="/img/nuevos/kia-forte.png" alt="">
+							<div class="name-price">
+								<h5>Kia Forte</h5>
+								<h5>$28,000</h5>
+							</div>
+							<p class="description">Un sedán compacto que combina estilo, tecnología y eficiencia de
+								combustible.</p>
+							<a class="product-link" href="/pages/detailspage/details.html?id=p3">VER DETALLES</a>
+							<button class="button-favorite" onclick="guardarEnFavoritos(this)">
+								<i class="fa-regular fa-star"></i>
+							</button>
+						</div>
+					</div>
+					<div class="cars-slide">
+						<div class="card" data-id="p4">
+							<img src="/img/nuevos/Malibu.png" alt="">
+							<div class="name-price">
+								<h5>Chevrolet Malibu</h5>
+								<h5>$25,000</h5>
+							</div>
+							<p class="description">Un sedán mediano que combina estilo, tecnología y eficiencia. Ofrece
+								un interior espacioso.</p>
+							<a class="product-link" href="/pages/detailspage/details.html?id=p4">VER DETALLES</a>
+							<button class="button-favorite" onclick="guardarEnFavoritos(this)">
+								<i class="fa-regular fa-star"></i>
+							</button>
+						</div>
+					</div>
+					<div class="cars-slide">
+						<div class="card" data-id="p5">
+							<img src="/img/nuevos/mazda-cx-5.png" alt="">
+							<div class="name-price">
+								<h5>Mazda CX-5</h5>
+								<h5>$28,000</h5>
+							</div>
+							<p class="description">Un SUV compacto con un diseño elegante, interior de alta calidad y
+								manejo ágil. </p>
+							<a class="product-link" href="/pages/detailspage/details.html?id=p5">VER DETALLES</a>
+							<button class="button-favorite" onclick="guardarEnFavoritos(this)">
+								<i class="fa-regular fa-star"></i>
+							</button>
+						</div>
+					</div>
+					<div class="cars-slide">
+						<div class="card" data-id="p6">
+							<img src="/img/nuevos/mirage.png" alt="">
+							<div class="name-price">
+								<h5>Mitsubishi Mirage</h5>
+								<h5>$16,000</h5>
+							</div>
+							<p class="description">Un subcompacto económico que destaca por su eficiencia de
+								combustible y precio accesible.</p>
+							<a class="product-link" href="/pages/detailspage/details.html?id=p6">VER DETALLES</a>
+							<button class="button-favorite" onclick="guardarEnFavoritos(this)">
+								<i class="fa-regular fa-star"></i>
+							</button>
+						</div>
+					</div>
+					<div class="cars-slide">
+						<div class="card" data-id="p7">
+							<img src="/img/nuevos/nissan-rogue.png" alt="">
+							<div class="name-price">
+								<h5>Nissan Rogue</h5>
+								<h5>$27,000</h5>
+							</div>
+							<p class="description">Un SUV con un diseño moderno y una buena combinación de
+								potencia y eficiencia de combustible.</p>
+							<a class="product-link" href="/pages/detailspage/details.html?id=p7">VER DETALLES</a>
+							<button class="button-favorite" onclick="guardarEnFavoritos(this)">
+								<i class="fa-regular fa-star"></i>
+							</button>
+						</div>
+					</div>
+					<div class="cars-slide">
+						<div class="card" data-id="p8">
+							<img src="/img/nuevos/tiguan.webp" alt="">
+							<div class="name-price">
+								<h5>Volkswagen Tiguan</h5>
+								<h5>$29,000</h5>
+							</div>
+							<p class="description">Un SUV con un interior de alta calidad y varias opciones de
+								motorización, incluyendo híbrida.</p>
+							<a class="product-link" href="/pages/detailspage/details.html?id=p8">VER DETALLES</a>
+							<button class="button-favorite" onclick="guardarEnFavoritos(this)">
+								<i class="fa-regular fa-star"></i>
+							</button>
+						</div>
+					</div>
+					<div class="cars-slide">
+						<div class="card" data-id="p9">
+							<img src="/img/nuevos/toyota-rav4.png" alt="">
+							<div class="name-price">
+								<h5>Toyota RAV4</h5>
+								<h5>$28,000</h5>
+							</div>
+							<p class="description">Un carro con buena economía de combustible y varias opciones de
+								motorización, incluyendo híbrido.</p>
+							<a class="product-link" href="/pages/detailspage/details.html?id=p9">VER DETALLES</a>
+							<button class="button-favorite" onclick="guardarEnFavoritos(this)">
+								<i class="fa-regular fa-star"></i>
+							</button>
+						</div>
+					</div>
+					<div class="cars-slide">
+						<div class="card" data-id="p10">
+							<img src="/img/nuevos/tucson.png" alt="">
+							<div class="name-price">
+								<h5>Hyundai Tucson</h5>
+								<h5>$27,500</h5>
+							</div>
+							<p class="description">Un carro con un diseño audaz, tecnología avanzada y una variedad de
+								opciones de motorización.</p>
+							<a class="product-link" href="/pages/detailspage/details.html?id=p10">VER DETALLES</a>
+							<button class="button-favorite" onclick="guardarEnFavoritos(this)">
+								<i class="fa-regular fa-star"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+				<button class="arrow arrow-left">
+					<i class="fa-solid fa-chevron-left"></i>
+				</button>
+				<button class="arrow arrow-right">
+					<i class="fa-solid fa-chevron-right"></i>
+				</button>
+			</div>
+		</section>
+
+		<section class="services">
+			<h2>SERVICIOS</h2>
+			<div class="services-container">
+				<article class="services-cards">
+					<img src="/img/servicios/material-symbols--car-tag.png" alt="">
+					<div class="description-services">
+						<h3>VENTA DE VEHICULOS</h3>
+						<p>Descubra una gran variedad de autos, SUV y camionetas cuidadosamente
+							inspeccionados y en excelentes condiciones.
+							Disfrute de precios competitivos y opciones de financiamiento
+							flexibles para que pueda adquirir el vehículo de sus sueños
+							sin problemas.</p>
+					</div>
+				</article>
+				<article class="services-cards">
+					<img src="/img/servicios/material-symbols--car-repair.png" alt="">
+					<div class="description-services">
+						<h3>MANTENIMIENTO COMPLETO</h3>
+						<p>Confíe en nuestros técnicos certificados y experimentados
+							para el cuidado integral de su vehículo.
+							Ofrecemos servicios preventivos, reparaciones generales
+							y utilizamos las últimas herramientas y técnicas para garantizar
+							el óptimo funcionamiento de su auto.</p>
+					</div>
+				</article>
+			</div>
+		</section>
+	</main>
+	<footer class="footer-section">
+		<div class="area-1">
+			<div class="area">
+				<figure>
+					<a href="index.html">
+						<img src="/img/tas.png" alt="logo">
+					</a>
+				</figure>
+			</div>
+			<div class="area">
+				<h4>NAVEGACIÓN</h4>
+				<ul>
+					<a href="/pages/inventarypage/inventary.html">
+						<li>Inventario</li>
+					</a>
+					<a href="/pages/aboutuspage/aboutus.html">
+						<li>Nosotros</li>
+					</a>
+					<a href="/pages/contactpage/contact.html">
+						<li>Contacto</li>
+					</a>
+					<a href="/pages/favoritespage/favoritos.html">
+						<li>Favoritos</li>
+					</a>
+					</a>
+				</ul>
+			</div>
+			<div class="area">
+				<h4>CONTÁCTANOS</h4>
+				<section class="social">
+					<a href="#" class="fa-brands fa-square-whatsapp"></a>
+					<a href="#" class="fa-brands fa-square-facebook"></a>
+					<a href="#" class="fa-brands fa-square-instagram"></a>
+					<a href="#" class="fa-brands fa-square-x-twitter"></a>
+				</section>
+			</div>
+		</div>
+		<div class="area-2">
+			<small>&copy; 2024 <b>TuAutoServices</b> - Todos los Derechos Reservados.</small>
+		</div>
+	</footer>
+
+
+	<script src="/pages/homepage/slide-cards.js"></script>
+	<script src="https://kit.fontawesome.com/8c436d0797.js" crossorigin="anonymous"></script>
+	<script src="/pages/javascript/script.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="/pages/homepage/index.js"></script>
+</body>
+
+</html>

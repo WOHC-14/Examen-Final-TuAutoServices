@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+		rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="contact.css">
+</head>
+
+<header class="header-section">
+    <a href="/pages/homepage/index.html"><img id="logo" src="/img/tas.png" alt="logo"></a>
+    <div class="search-container">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <form id="searchForm">
+            <input type="text" id="searchInput" placeholder="Buscar...">
+        </form>
+    </div>
+    <nav class="nav-section">
+        <ul>
+            <li><a href="/pages/inventarypage/inventary.html">INVENTARIO</a></li>
+            <li><a href="/pages/aboutuspage/aboutus.html">NOSOTROS</a></li>
+            <li><a href="/pages/contactpage/contact.html">CONTACTO</a></li>
+            <li><a class="icon-star" href="/pages/favoritespage/favoritos.html">FAVORITOS</a></li>
+            <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+        </ul>
+    </nav>
+    <div class="menu-icon" onclick="toggleMenu()"><i class="fa-solid fa-caret-down"></i></div>
+</header>
+
+<main>
+
+    <h1>CONTÁCTANOS</h1>
+        
+    <section class="contact-info">
+        <div class="info-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <h2>Dirección</h2>
+            <p>Av. de los Automóviles 123</p>
+            <p>Ciudad Automovolistica, CP 12345</p>
+        </div>
+        
+        <div class="info-card">
+            <i class="fas fa-phone-alt"></i>
+            <h2>Teléfono</h2>
+            <p>Ventas: (507) 6382-9300</p>
+            <p>Servicio: (507) 6993-4476</p>
+        </div>
+        
+        <div class="info-card">
+            <i class="fas fa-envelope"></i>
+            <h2>Correo Electrónico</h2>
+            <p>info@tuautoservices.com</p>
+            <p>ventas@tas.com</p>
+        </div>
+        
+        <div class="info-card">
+            <i class="fas fa-clock"></i>
+            <h2>Horario</h2>
+            <p>Lunes a Viernes: 9:00 am - 6:00 pm</p>
+            <p>Sábado: 10:00 - 01:00 pm</p>
+            <p>Domingo: Cerrado</p>
+        </div>
+    </section>
+    
+    <section class="map-section">
+        <h2 class="ubi"> Ubicación</h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.215631485!2d-73.98823668459375!3d40.74844397932769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1625761975962!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    
+    <section class="social-media">
+        <h2>Síguenos </h2>
+        <div class="social-icons">
+            <a href="https://developers.facebook.com/" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://developer.x.com/en" class="social-icon"><i class="fab fa-square-x-twitter"></i></a>
+            <a href="https://developers.facebook.com/docs/instagram-platform/" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://developers.facebook.com/docs/instagram-platform/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </section>
+
+
+
+</main>
+
+
+<footer class="footer-section">
+    <div class="area-1">
+        <div class="area">
+            <figure>
+                <a href="index.html">
+                    <img src="/img/tas.png" alt="logo">
+                </a>
+            </figure>
+        </div>
+        <div class="area">
+            <h4>NAVEGACIÓN</h4>
+            <ul>
+                <a href="/pages/inventarypage/inventary.html">
+                    <li>Inventario</li>
+                </a>
+                <a href="/pages/aboutuspage/aboutus.html">
+                    <li>Nosotros</li>
+                </a>
+                <a href="/pages/contactpage/contact.html">
+                    <li>Contacto</li>
+                </a>
+                <a href="/pages/favoritespage/favoritos.html">
+                    <li>Favoritos</li>
+                </a>
+                </a>
+            </ul>
+        </div>
+        <div class="area">
+            <h4>CONTÁCTANOS</h4>
+            <section class="social">
+                <a href="#" class="fa-brands fa-square-whatsapp"></a>
+                <a href="#" class="fa-brands fa-square-facebook"></a>
+                <a href="#" class="fa-brands fa-square-instagram"></a>
+                <a href="#" class="fa-brands fa-square-x-twitter"></a>
+            </section>
+        </div>
+    </div>
+    <div class="area-2">
+        <small>&copy; 2024 <b>TuAutoServices</b> - Todos los Derechos Reservados.</small>
+    </div>
+</footer>
+
+
+
+<script src="https://kit.fontawesome.com/8c436d0797.js" crossorigin="anonymous"></script>
+<script src="/pages/javascript/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,665 @@
+{
+    "productos": [
+        {
+            "id": "p1",
+            "nombre": "Ford Escape 2024",
+            "precio": 28500,
+            "descripcion": "Un SUV compacto que ofrece opciones de motorización híbridas y plug-in híbridas.",
+            "imagen": "/img/inventario/ford-escape.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor turbo de 1.5 litros y 3 cilindros, Transmisión automática de 8 velocidades.",
+                "Potencia: 181 hp.",
+                "Consumo de Combustible: 27 MPG en ciudad / 33 MPG en carretera.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: 37.5 pies cúbicos.",
+                "Tracción: Tracción delantera (FWD) y tracción total (AWD) disponibles.",
+                "Tecnología: Sistema de infoentretenimiento SYNC 3 con pantalla táctil de 8 pulgadas, compatibilidad con Apple CarPlay y Android Auto, sistema de sonido B&O.",
+                "Seguridad: Frenado automático de emergencia, monitor de punto ciego, alerta de tráfico cruzado, asistente de mantenimiento de carril."
+            ]
+        },
+        {
+            "id": "p2",
+            "nombre": "Honda CR-V 2024",
+            "precio": 29000,
+            "descripcion": "Un SUV compacto con amplio espacio interior y características avanzadas de seguridad.",
+            "imagen": "/img/inventario/honda-crv.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor turbo de 1.5 litros y 4 cilindros, Transmisión automática CVT.",
+                "Potencia: 190 hp. ",
+                "Consumo de Combustible: 28 MPG en ciudad / 34 MPG en carretera. ",
+                "Capacidad de Pasajeros: 5. ",
+                "Capacidad de Carga: 39.2 pies cúbicos. ",
+                "Tracción: Tracción delantera (FWD) y tracción total (AWD) disponibles. ",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 7 pulgadas, compatibilidad con Apple CarPlay y Android Auto, sistema de sonido premium. ",
+                "Seguridad: Frenado automático de emergencia, control de crucero adaptativo, asistente de mantenimiento de carril, reconocimiento de señales de tráfico. "
+            ]
+        },
+        {
+            "id": "p3",
+            "nombre": "Kia Forte 2024",
+            "precio": 28000,
+            "descripcion": "Un sedán compacto que combina estilo, tecnología y eficiencia de combustible.",
+            "imagen": "/img/inventario/kia-forte.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor de 2.0 litros y 4 cilindros, Transmisión automática CVT.",
+                "Potencia: 147 hp.",
+                "Consumo de Combustible: 31 MPG en ciudad / 41 MPG en carretera.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: 15.3 pies cúbicos.",
+                "Tracción: Tracción delantera (FWD).",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 8 pulgadas, compatibilidad con Apple CarPlay y Android Auto, sistema de sonido Harman Kardon.",
+                "Seguridad: Frenado automático de emergencia, advertencia de colisión frontal, asistente de mantenimiento de carril, monitor de punto ciego."
+            ]
+        },
+        {
+            "id": "p4",
+            "nombre": "Chevrolet Malibu 2024",
+            "precio": 25000,
+            "descripcion": "Un sedán mediano que combina estilo, tecnología y eficiencia. Ofrece un interior espacioso.",
+            "imagen": "/img/inventario/Malibu.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor turbo de 1.5 litros y 4 cilindros, Transmisión automática CVT.",
+                "Potencia: 160 hp.",
+                "Consumo de Combustible: 29 MPG en ciudad / 36 MPG en carretera.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: 15.7 pies cúbicos.",
+                "Tracción: Tracción delantera (FWD).",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 8 pulgadas, compatibilidad con Apple CarPlay y Android Auto, sistema de sonido Bose.",
+                "Seguridad: Frenado automático de emergencia, control de crucero adaptativo, asistencia de estacionamiento trasero, monitor de punto ciego."
+            ]
+        },
+        {
+            "id": "p5",
+            "nombre": "Mazda CX-5 2024",
+            "precio": 28000,
+            "descripcion": "Un SUV compacto con un diseño elegante, interior de alta calidad y manejo ágil.",
+            "imagen": "/img/inventario/mazda-cx-5.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor de 2.5 litros y 4 cilindros, Transmisión automática de 6 velocidades.",
+                "Potencia: 187 hp.",
+                "Consumo de Combustible: 25 MPG en ciudad / 31 MPG en carretera.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: 30.9 pies cúbicos.",
+                "Tracción: Tracción delantera (FWD) y tracción total (AWD) disponibles.",
+                "Tecnología: Sistema de infoentretenimiento Mazda Connect con pantalla táctil de 10.25 pulgadas, compatibilidad con Apple CarPlay y Android Auto, sistema de sonido Bose.",
+                "Seguridad: Frenado automático de emergencia, control de crucero adaptativo, monitoreo de punto ciego, asistencia de mantenimiento de carril."
+            ]
+        },
+        {
+            "id": "p6",
+            "nombre": "Mitsubishi Mirage 2024",
+            "precio": 16000,
+            "descripcion": "Un subcompacto económico que destaca por su eficiencia de combustible y precio accesible.",
+            "imagen": "/img/inventario/mirage.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor de 1.2 litros y 3 cilindros, Transmisión automática CVT.",
+                "Potencia: 78 hp.",
+                "Consumo de Combustible: 36 MPG en ciudad / 43 MPG en carretera.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: 17.1 pies cúbicos.",
+                "Tracción: Tracción delantera (FWD).",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 7 pulgadas, compatibilidad con Apple CarPlay y Android Auto, sistema de sonido Rockford Fosgate.",
+                "Seguridad: Frenado automático de emergencia, advertencia de colisión frontal, monitor de punto ciego, asistente de mantenimiento de carril."
+            ]
+        },
+        {
+            "id": "p7",
+            "nombre": "Nissan Rogue 2024",
+            "precio": 27000,
+            "descripcion": "Un SUV con un diseño moderno y una buena combinación de potencia y eficiencia de combustible.",
+            "imagen": "/img/inventario/nissan-rogue.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor de 2.5 litros y 4 cilindros, Transmisión automática CVT.",
+                "Potencia: 181 hp.",
+                "Consumo de Combustible: 27 MPG en ciudad / 35 MPG en carretera.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: 36.5 pies cúbicos.",
+                "Tracción: Tracción delantera (FWD) y tracción total (AWD) disponibles.",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 8 pulgadas, compatibilidad con Apple CarPlay y Android Auto, sistema de sonido Bose.",
+                "Seguridad: Frenado automático de emergencia, control de crucero adaptativo, monitoreo de punto ciego, asistente de mantenimiento de carril."
+            ]
+        },
+        {
+            "id": "p8",
+            "nombre": "Volkswagen Tiguan 2024",
+            "precio": 29000,
+            "descripcion": "Un SUV con un interior de alta calidad y varias opciones de motorización, incluyendo híbrida.",
+            "imagen": "/img/inventario/tiguan.webp",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor turbo de 2.0 litros y 4 cilindros, Transmisión automática de 8 velocidades.",
+                "Potencia: 184 hp.",
+                "Consumo de Combustible: 23 MPG en ciudad / 29 MPG en carretera.",
+                "Capacidad de Pasajeros: 7.",
+                "Capacidad de Carga: 12 pies cúbicos (con todos los asientos en uso).",
+                "Tracción: Tracción delantera (FWD) y tracción total (AWD) disponibles.",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 8 pulgadas, compatibilidad con Apple CarPlay y Android Auto, sistema de sonido Fender.",
+                "Seguridad: Frenado automático de emergencia, control de crucero adaptativo, asistente de mantenimiento de carril, monitoreo de punto ciego."
+            ]
+        },
+        {
+            "id": "p9",
+            "nombre": "Toyota RAV4 2024",
+            "precio": 28000,
+            "descripcion": "Un carro con buena economía de combustible y varias opciones de motorización, incluyendo híbrido.",
+            "imagen": "/img/inventario/toyota-rav4.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor de 2.5 litros y 4 cilindros, Transmisión automática de 8 velocidades.",
+                "Potencia: 203 hp.",
+                "Consumo de Combustible: 27 MPG en ciudad / 35 MPG en carretera.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: 37.6 pies cúbicos.",
+                "Tracción: Tracción delantera (FWD) y tracción total (AWD) disponibles.",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 8 pulgadas, compatibilidad con Apple CarPlay y Android Auto, sistema de sonido JBL.",
+                "Seguridad: Frenado automático de emergencia, control de crucero adaptativo, monitoreo de punto ciego, asistente de mantenimiento de carril."
+            ]
+        },
+        {
+            "id": "p10",
+            "nombre": "Hyundai Tucson 2024",
+            "precio": 27500,
+            "descripcion": "Un carro con un diseño audaz, tecnología avanzada y una variedad de opciones de motorización.",
+            "imagen": "/img/inventario/tucson.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor de 2.5 litros y 4 cilindros, Transmisión automática de 8 velocidades.",
+                "Potencia: 187 hp.",
+                "Consumo de Combustible: 26 MPG en ciudad / 33 MPG en carretera.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: 38.7 pies cúbicos.",
+                "Tracción: Tracción delantera (FWD) y tracción total (AWD) disponibles.",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 8 pulgadas, compatibilidad con Apple CarPlay y Android Auto, sistema de sonido Bose.",
+                "Seguridad: Frenado automático de emergencia, control de crucero adaptativo, monitoreo de punto ciego, asistente de mantenimiento de carril."
+            ]
+        },
+        {
+            "id": "p11",
+            "nombre": "Honda Civic Type R 2024",
+            "precio": 45500,
+            "descripcion": "Un hatchback de alto rendimiento. Equipado con un motor turbo de 2.0 litros y tecnología avanzada.",
+            "imagen": "/img/inventario/civic.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor turbo de 2.0 litros y 4 cilindros, transmisión manual de 6 velocidades.",
+                "Potencia: 315 hp.",
+                "Consumo de Combustible: 22 MPG en ciudad / 28 MPG en carretera.",
+                "Capacidad de Pasajeros: 4.",
+                "Capacidad de Carga: 25.7 pies cúbicos.",
+                "Tracción: Tracción delantera (FWD).",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 7 pulgadas, compatibilidad con Apple CarPlay y Android Auto, sistema de sonido premium.",
+                "Seguridad: Frenado automático de emergencia, control de crucero adaptativo, asistente de mantenimiento de carril, reconocimiento de señales de tráfico."
+            ]
+        },
+        {
+            "id": "p12",
+            "nombre": "Toyota Hilux Gr Sport II 2024",
+            "precio": 50000,
+            "descripcion": "Un modelo de alta gama diseñado para ofrecer un rendimiento superior en cualquier terreno.",
+            "imagen": "/img/inventario/hilux.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor diésel de 2.8 litros y 4 cilindros, transmisión automática de 6 velocidades.",
+                "Potencia: 201 hp.",
+                "Consumo de Combustible: Aproximadamente 28 MPG en ciudad / 34 MPG en carretera.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: 1,000 kg.",
+                "Tracción: Tracción en las cuatro ruedas (4WD).",
+                "Tecnología: Sistema multimedia Toyota Smart Connect+ con pantalla táctil de 8 pulgadas, compatibilidad con Apple CarPlay y Android Auto, sistema de sonido premium JBL de 9 altavoces.",
+                "Seguridad: Frenado automático de emergencia, control de crucero adaptativo, asistente de mantenimiento de carril, reconocimiento de señales de tráfico."
+            ]
+        },
+        {
+            "id": "p13",
+            "nombre": "Chevrolet Equinox 2022",
+            "precio": 24500,
+            "descripcion": "SUV compacto versátil y eficiente, ideal para familias y aventuras diarias. Con un motor turbo de 1.5 litros",
+            "imagen": "/img/inventario/equinox.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor turbo de 1.5 litros y 4 cilindros, transmisión automática de 6 velocidades.",
+                "Potencia: 170 hp.",
+                "Consumo de Combustible: 26 MPG en ciudad / 31 MPG en carretera.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: 29.9 pies cúbicos.",
+                "Tracción: Tracción delantera (FWD) y tracción total (AWD) disponibles.",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 7 pulgadas, compatibilidad con Apple CarPlay y Android Auto, Wi-Fi hotspot.",
+                "Seguridad: Frenado automático de emergencia, control de crucero adaptativo, asistente de mantenimiento de carril, advertencia de colisión frontal."
+            ]
+        },
+        {
+            "id": "p14",
+            "nombre": "Toyota Corolla Cross 2024",
+            "precio": 34500,
+            "descripcion": "Basado en el popular sedán Corolla, el Corolla Cross ofrece un poco más de espacio y altura, ideal para familias.",
+            "imagen": "/img/inventario/corolla.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor 2.0L D-4S gasolina, 4 cilindros, 16 válvulas DOHC Dual VVT-i, transmisión automática.",
+                "Potencia: 170 hp.",
+                "Consumo de Combustible: Hasta 32 MPG combinado estimado por el fabricante.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: Hasta 24 pies cúbicos.",
+                "Tracción: Tracción delantera (FWD) y tracción total (AWD) disponibles.",
+                "Tecnología: Pantalla táctil multimedia de 8 pulgadas, rieles de techo disponibles.",
+                "Seguridad: Frenado automático de emergencia, control de crucero adaptativo, asistente de mantenimiento de carril, advertencia de colisión frontal."
+            ]
+        },
+        {
+            "id": "p15",
+            "nombre": "Toyota Camry TRD 2024",
+            "precio": 40000,
+            "descripcion": "Este modelo deportivo cuenta con un motor V6 de 3.5 litros que entrega 301 caballos de fuerza y buena suspensión.",
+            "imagen": "/img/inventario/camrytrd.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor 3.5L V6 gasolina, 24 válvulas DOHC, transmisión automática de 8 velocidades.",
+                "Potencia: 301HP@6600rpm.",
+                "Consumo de Combustible: 22 MPG en ciudad / 31 MPG en carretera.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: 15.1 pies cúbicos.",
+                "Tracción: Tracción delantera.",
+                "Tecnología: Pantalla táctil multimedia de 9 pulgadas, sistema de audio JBL con 9 bocinas.",
+                "Seguridad: Frenado automático de emergencia, control de crucero adaptativo, asistente de mantenimiento de carril, alerta de cambio de carril, alerta de punto ciego con alerta de tráfico trasero."
+            ]
+        },
+        {
+            "id": "p16",
+            "nombre": "Ford Mustang",
+            "precio": 43000,
+            "descripcion": "Este deportivo ofrece una mezcla perfecta de potencia, tecnología avanzada y estilo icónico. ",
+            "imagen": "/img/inventario/mustang.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor turbo de 2.3 litros y 4 cilindros, V8 de 5.0 litros, Transmisión manual de 6 velocidades o automática de 10 velocidades.",
+                "Potencia: Desde 310 hp en el EcoBoost hasta 500 hp en el modelo Dark Horse.",
+                "Consumo de Combustible: Aproximadamente 21 MPG en ciudad / 31 MPG en carretera para el EcoBoost.",
+                "Capacidad de Pasajeros: 4.",
+                "Capacidad de Carga: 13.5 pies cúbicos.",
+                "Tracción: Tracción trasera (RWD).",
+                "Tecnología: Sistema de infoentretenimiento SYNC 4 con pantalla táctil de 13.2 pulgadas, compatibilidad con Apple CarPlay y Android Auto, sistema de sonido B&O de 12 altavoces en los modelos superiores.",
+                "Seguridad: Ford Co-Pilot360™ incluye frenado automático de emergencia, control de crucero adaptativo, asistente de mantenimiento de carril y monitoreo de punto ciego."
+            ]
+        },
+        {
+            "id": "p17",
+            "nombre": "Toyota Tacoma 2024",
+            "precio": 44500,
+            "descripcion": "Una camioneta mediana diseñada para ofrecer una combinación de durabilidad y modernidad.",
+            "imagen": "/img/inventario/tacoma.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor turbo de 2.4 litros y 4 cilindros, combinado con un motor eléctrico de 48 hp, transmisión automática de 8 velocidades.",
+                "Potencia: 326 hp.",
+                "Consumo de Combustible: Aproximadamente 22 MPG en ciudad / 28 MPG en carretera.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: 1,685 libras.",
+                "Tracción: Tracción en las cuatro ruedas (4WD).",
+                "Tecnología: Pantalla táctil de 8 pulgadas, sistema de infoentretenimiento con compatibilidad con Apple CarPlay y Android Auto, sistema de sonido JBL de 10 altavoces.",
+                "Seguridad: Sistema de precolisión con detección de peatones, control de crucero adaptativo, alerta de cambio de carril, monitor de punto ciego."
+            ]
+        },
+        {
+            "id": "p18",
+            "nombre": "Mazda 3 2023",
+            "precio": 23500,
+            "descripcion": "Un automóvil compacto disponible en versiones sedán y hatchback, conocido por su estilo elegante y dinámico.",
+            "imagen": "/img/inventario/honda-crv.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor de 2.5 litros y 4 cilindros, transmisión automática de 6 velocidades.",
+                "Potencia: 191 hp.",
+                "Consumo de Combustible: 28 MPG en ciudad / 37 MPG en carretera (FWD).",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: 20.1 pies cúbicos en el hatchback.",
+                "Tracción: Tracción delantera (FWD) y tracción total (AWD) disponibles.",
+                "Tecnología: Pantalla de infoentretenimiento de 8.8 pulgadas, compatibilidad con Apple CarPlay y Android Auto, sistema de sonido Bose premium con 12 altavoces, navegación.",
+                "Seguridad: Frenado automático de emergencia, control de crucero adaptativo, asistente de mantenimiento de carril, monitoreo de punto ciego, alerta de tráfico cruzado trasero."
+            ]
+        },
+        {
+            "id": "p19",
+            "nombre": "Mazda CX-9 2021",
+            "precio": 26500,
+            "descripcion": "Un SUV de tres filas que destaca por su diseño elegante, su manejo ágil y su lujoso interior.",
+            "imagen": "/img/inventario/cx9.webp",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor turbo de 2.5 litros y 4 cilindros, transmisión automática de 6 velocidades.",
+                "Potencia: 250 hp (227 hp con gasolina regular).",
+                "Consumo de Combustible: 22 MPG en ciudad / 28 MPG en carretera.",
+                "Capacidad de Pasajeros: 6 o 7, dependiendo de la configuración de los asientos.",
+                "Capacidad de Carga: 14.4 pies cúbicos detrás de la tercera fila, hasta 71.2 pies cúbicos con los asientos traseros plegados.",
+                "Tracción: Tracción delantera (FWD) y tracción total (AWD) disponibles.",
+                "Tecnología: Pantalla de infoentretenimiento de 10.25 pulgadas, compatibilidad con Apple CarPlay y Android Auto, sistema de sonido Bose premium, navegación, cargador inalámbrico.",
+                "Seguridad: Frenado automático de emergencia, control de crucero adaptativo, asistente de mantenimiento de carril, monitoreo de punto ciego, alerta de tráfico cruzado trasero."
+            ]
+        },
+        {
+            "id": "p20",
+            "nombre": "Mazda MX-5 2024",
+            "precio": 32500,
+            "descripcion": "Deportivo ligero, conocido por su manejo ágil, diseño elegante y experiencia de conducción divertida.",
+            "imagen": "/img/inventario/mx5.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor de 2.0 litros y 4 cilindros, transmisión manual de 6 velocidades.",
+                "Potencia: 181 hp.",
+                "Consumo de Combustible: 26 MPG en ciudad / 34 MPG en carretera.",
+                "Capacidad de Pasajeros: 2.",
+                "Capacidad de Carga: 4.6 pies cúbicos.",
+                "Tracción: Tracción trasera (RWD).",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 7 pulgadas, compatibilidad con Apple CarPlay y Android Auto, sistema de sonido Bose premium.",
+                "Seguridad: Frenado automático de emergencia, monitoreo de punto ciego, alerta de tráfico cruzado trasero, control de crucero adaptativo."
+            ]
+        },
+        {
+            "id": "p21",
+            "nombre": "Honda Accord 2021",
+            "precio": 25000,
+            "descripcion": "Un sedán mediano que combina elegancia, eficiencia y tecnología avanzada.",
+            "imagen": "/img/inventario/accord.png",
+            "caracteristicas": []
+        },
+        {
+            "id": "p22",
+            "nombre": "Honda Pilot 2021",
+            "precio": 35000,
+            "descripcion": "SUV de tres filas que combina comodidad, tecnología avanzada y una capacidad robusta para toda la familia.",
+            "imagen": "/img/inventario/pilot.webp",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor V6 de 3.5 litros, Transmisión automática de 9 velocidades.",
+                "Potencia: 280 hp.",
+                "Consumo de Combustible: 19 MPG en ciudad / 26 MPG en carretera.",
+                "Capacidad de Pasajeros: 7-8.",
+                "Capacidad de Carga: 16.5 pies cúbicos detrás de la tercera fila, hasta 83.8 pies cúbicos con los asientos traseros plegados.",
+                "Tracción: Tracción delantera (FWD) y tracción total (AWD) disponibles.",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 8 pulgadas, compatibilidad con Apple CarPlay y Android Auto, sistema de sonido de 10 bocinas, punto de acceso Wi-Fi.",
+                "Seguridad: Control de crucero adaptativo, frenado automático de emergencia, asistente de mantenimiento de carril, advertencia de colisión frontal, monitoreo de punto ciego, sensores de estacionamiento delanteros y traseros."
+            ]
+        },
+        {
+            "id": "p23",
+            "nombre": "Honda Ridgeline 2024",
+            "precio": 38000,
+            "descripcion": "Una camioneta pickup mediana que combina versatilidad, comodidad y rendimiento robusto. ",
+            "imagen": "/img/inventario/ridgeline.avif",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor V6 de 3.5 litros, Transmisión automática de 9 velocidades.",
+                "Potencia: 280 hp.",
+                "Consumo de Combustible: 18 MPG en ciudad / 24 MPG en carretera.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: 33.9 pies cúbicos en la cama de la camioneta.",
+                "Tracción: Tracción total (AWD).",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 8 pulgadas, compatibilidad con Apple CarPlay y Android Auto, sistema de sonido premium, cargador inalámbrico.",
+                "Seguridad: Frenado automático de emergencia, control de crucero adaptativo, asistente de mantenimiento de carril, monitoreo de punto ciego, sensores de estacionamiento delanteros y traseros."
+            ]
+        },
+        {
+            "id": "p24",
+            "nombre": "Chevrolet Impala 2019",
+            "precio": 32000,
+            "descripcion": "Un sedán de tamaño completo con un interior espacioso y un maletero amplio.",
+            "imagen": "/img/inventario/impala.webp",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor 2.5L 4 cilindros ECOTEC con tecnología de parada/arranque, transmisión automática de 6 velocidades.",
+                "Potencia: 197 hp.",
+                "Consumo de Combustible: 22 MPG en ciudad / 29 MPG en carretera.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: 18.8 pies cúbicos.",
+                "Tracción: Tracción delantera.",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 8 pulgadas, Apple CarPlay, Android Auto, Wi-Fi hotspot.",
+                "Seguridad: Alerta de colisión frontal, frenado automático de emergencia, alerta de cambio de carril, control de crucero adaptativo."
+            ]
+        },
+        {
+            "id": "p25",
+            "nombre": "Chevrolet Colorado 2022",
+            "precio": 33500,
+            "descripcion": "Amplia gama de configuraciones de cabina, así como tres opciones de motor de mucha potencia.",
+            "imagen": "/img/inventario/colorado.webp",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor 2.5L 4 cilindros, transmisión automática de 6 velocidades.",
+                "Potencia: 200 hp.",
+                "Consumo de Combustible: 19 MPG en ciudad / 25 MPG en carretera.",
+                "Capacidad de Pasajeros: 4 o 5.",
+                "Capacidad de Carga: 1,578 libras.",
+                "Tracción: Tracción trasera (2WD) o tracción en las 4 ruedas (4WD) disponibles.",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 7 pulgadas, Apple CarPlay, Android Auto, Wi-Fi hotspot.",
+                "Seguridad: Alerta de colisión frontal, frenado automático de emergencia, alerta de cambio de carril, control de crucero adaptativo."
+            ]
+        },
+        {
+            "id": "p26",
+            "nombre": "Hyundai Elantra 2024",
+            "precio": 23000,
+            "descripcion": "Sedán compacto que recibió un rediseño para este año modelo. Cuenta con un nuevo diseño frontal más afilado.",
+            "imagen": "/img/inventario/elantra.webp",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor 2.0L 4 cilindros, transmisión automática de 6 velocidades o transmisión manual de 6 velocidades disponible.",
+                "Potencia: 147 hp.",
+                "Consumo de Combustible: Hasta 36 MPG combinado.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: 14.2 pies cúbicos.",
+                "Tracción: Tracción delantera.",
+                "Tecnología: Pantalla táctil de 8 o 10.25 pulgadas, Apple CarPlay, Android Auto, cargador inalámbrico disponible.",
+                "Seguridad: Frenado automático de emergencia, alerta de colisión frontal, alerta de cambio de carril, alerta de punto ciego."
+            ]
+        },
+        {
+            "id": "p27",
+            "nombre": "Hyundai Sonata 2024",
+            "precio": 26000,
+            "descripcion": "Equipado con un motor 2.5L de 191 caballos de fuerza acoplado a una transmisión automática de 8 velocidades. ",
+            "imagen": "/img/inventario/sonata.webp",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor 2.5L 4 cilindros, transmisión automática de 8 velocidades.",
+                "Potencia: 191 hp.",
+                "Consumo de Combustible: 29 MPG combinado.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: 16 pies cúbicos.",
+                "Tracción: Tracción delantera (FWD) o tracción total (AWD) disponible.",
+                "Tecnología: Pantalla táctil de 12.3 pulgadas, Apple CarPlay/Android Auto inalámbricos, cargador inalámbrico.",
+                "Seguridad: Frenado automático de emergencia, control de crucero adaptativo, asistente de mantenimiento de carril, alerta de cambio de carril, alerta de punto ciego,"
+            ]
+        },
+        {
+            "id": "p28",
+            "nombre": "Hyundai Santa Fe 2022",
+            "precio": 29000,
+            "descripcion": "Un SUV de tamaño mediano con un diseño atractivo y un interior espacioso. ",
+            "imagen": "/img/inventario/santafe.webp",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor 2.5L 4 cilindros turbo, transmisión automática de 8 velocidades.",
+                "Potencia: 277 hp.",
+                "Consumo de Combustible: 22 MPG en ciudad / 28 MPG en carretera.",
+                "Capacidad de Pasajeros: 5 o 7.",
+                "Capacidad de Carga: 36.4 pies cúbicos (5 pasajeros) / 72.1 pies cúbicos (2 pasajeros).",
+                "Tracción: Tracción delantera (FWD) o tracción total (AWD) disponibles.",
+                "Tecnología: Pantalla táctil de 8 pulgadas, Apple CarPlay, Android Auto, cargador inalámbrico disponible.",
+                "Seguridad: Frenado automático de emergencia, alerta de colisión frontal, alerta de cambio de carril, alerta de punto ciego."
+            ]
+        },
+        {
+            "id": "p29",
+            "nombre": "Ford Fusion 2020",
+            "precio": 29000,
+            "descripcion": "Un sedán bien equipado con un motor 2.5L de 175 caballos de fuerza acoplado a una transmisión automática.",
+            "imagen": "/img/inventario/fusion.webp",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor 2.5L 4 cilindros, transmisión automática de 6 velocidades.",
+                "Potencia: 175 hp.",
+                "Consumo de Combustible: 23 MPG en ciudad / 34 MPG en carretera.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: 16 pies cúbicos.",
+                "Tracción: Tracción delantera.",
+                "Tecnología: Sistema de infoentretenimiento SYNC 3 con pantalla táctil de 8 pulgadas, Apple CarPlay, Android Auto, Wi-Fi hotspot.",
+                "Seguridad: Frenado automático de emergencia, alerta de colisión frontal, control de crucero adaptativo, asistente de mantenimiento de carril."
+            ]
+        },
+        {
+            "id": "p30",
+            "nombre": "Seat Ibiza Reference 2024",
+            "precio": 18000,
+            "descripcion": "Un hatchback compacto que destaca por su diseño moderno, eficiencia y funcionalidad.",
+            "imagen": "/img/inventario/ibiza.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor de gasolina disponible, transmisión manual de 5 velocidades",
+                "Potencia: Aproximadamente 80 hp",
+                "Consumo de Combustible: Aproximadamente 40 MPG en carretera",
+                "Capacidad de Pasajeros: 5",
+                "Capacidad de Carga: Aproximadamente 300 litros en el maletero",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 6.5 pulgadas, compatible con Apple CarPlay y Android Auto, sistema de sonido básico",
+                "Seguridad: Equipado con sistemas de seguridad estándar como frenos antibloqueo (ABS), control de estabilidad (ESP), múltiples airbags"
+            ]
+        },
+        {
+            "id": "p31",
+            "nombre": "Seat Arona FR 2024",
+            "precio": 22000,
+            "descripcion": "SUV compacto que combina estilo deportivo con funcionalidad urbana y tecnología avanzada.",
+            "imagen": "/img/inventario/arona.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor de gasolina disponible, transmisión automática de 7 velocidades",
+                "Potencia: Alrededor de 150 hp",
+                "Consumo de Combustible: Alrededor de 35 MPG en carretera",
+                "Capacidad de Pasajeros: 5",
+                "Capacidad de Carga: Aproximadamente 400 litros en el maletero",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 8 pulgadas, compatible con Apple CarPlay y Android Auto, sistema de sonido premium",
+                "Seguridad: Equipado con sistemas avanzados de asistencia al conductor como frenado automático de emergencia, asistente de mantenimiento de carril, control de crucero adaptativo, y múltiples airbags"
+            ]
+        },
+        {
+            "id": "p32",
+            "nombre": "Seat Ateca FR Special Edition 2024",
+            "precio": 28000,
+            "descripcion": "SUV compacto y deportivo. Ofrece un equilibrio entre estilo urbano, rendimiento dinámico y tecnología avanzada.",
+            "imagen": "/img/inventario/honda-crv.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor de gasolina disponible, transmisión automática de 7 velocidades.",
+                "Potencia: Alrededor de 190 hp.",
+                "Consumo de Combustible: Aproximadamente 30 MPG en carretera.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: Aproximadamente 510 litros en el maletero.",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 9.2 pulgadas, compatible con Apple CarPlay y Android Auto, sistema de sonido premium BeatsAudio.",
+                "Seguridad: Equipado con sistemas avanzados de asistencia al conductor como frenado automático de emergencia, asistente de mantenimiento de carril, control de crucero adaptativo, y múltiples airbags."
+            ]
+        },
+        {
+            "id": "p33",
+            "nombre": "Nissan Sentra 2024",
+            "precio": 20000,
+            "descripcion": "Sedán compacto que destaca por su diseño moderno, confort interior y tecnología avanzada. ",
+            "imagen": "/img/inventario/sentra.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor de gasolina disponible, transmisión automática de variador continuo (CVT).",
+                "Potencia: Alrededor de 149 hp.",
+                "Consumo de Combustible: Aproximadamente 29 MPG en ciudad / 39 MPG en carretera.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: Aproximadamente 15.1 pies cúbicos en el maletero.",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 7 pulgadas, compatible con Apple CarPlay y Android Auto, sistema de sonido premium Bose disponible.",
+                "Seguridad: Equipado con sistemas avanzados de asistencia al conductor como frenado automático de emergencia, asistente de mantenimiento de carril, monitoreo de punto ciego, y múltiples airbags."
+            ]
+        },
+        {
+            "id": "p34",
+            "nombre": "Nissan Altima 2024",
+            "precio": 25000,
+            "descripcion": "Sedán mediano que combina estilo elegante con rendimiento confiable y tecnología avanzada. ",
+            "imagen": "/img/inventario/altima.webp",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor de gasolina disponible, transmisión automática Xtronic CVT.",
+                "Potencia: Alrededor de 188 hp.",
+                "Consumo de Combustible: Aproximadamente 28 MPG en ciudad / 39 MPG en carretera.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: Aproximadamente 15.4 pies cúbicos en el maletero.",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 8 pulgadas, compatible con Apple CarPlay y Android Auto, sistema de sonido premium Bose disponible.",
+                "Seguridad: Equipado con sistemas avanzados de asistencia al conductor como frenado automático de emergencia, asistente de mantenimiento de carril, monitoreo de punto ciego, y múltiples airbags."
+            ]
+        },
+        {
+            "id": "p35",
+            "nombre": "Nissan Titan 2024",
+            "precio": 42000,
+            "descripcion": "Una pickup robusta que combina potencia, capacidad de carga y tecnología avanzada.",
+            "imagen": "/img/inventario/titan.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor V8 de gasolina disponible, transmisión automática de 9 velocidades.",
+                "Potencia: Alrededor de 400 hp.",
+                "Consumo de Combustible: Aproximadamente 15 MPG en ciudad / 21 MPG en carretera.",
+                "Capacidad de Pasajeros: 5 a 6, dependiendo de la configuración.",
+                "Capacidad de Carga: Varía según la configuración, hasta aproximadamente 1,600 libras en la cama de la pickup.",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de hasta 9 pulgadas, compatible con Apple CarPlay y Android Auto, sistema de sonido premium disponible.",
+                "Seguridad: Equipado con sistemas avanzados de asistencia al conductor como frenado automático de emergencia, monitoreo de punto ciego, cámara de visión periférica, y múltiples airbags."
+            ]
+        },
+        {
+            "id": "p36",
+            "nombre": "Volkswagen Jetta 2022",
+            "precio": 21500,
+            "descripcion": "Sedán compacto conocido por su diseño elegante, confort interior y eficiencia de combustible.",
+            "imagen": "/img/inventario/jetta.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor de gasolina disponible, transmisión automática Tiptronic de 8 velocidades.",
+                "Potencia: Varía según la versión, típicamente entre 147 hp y 228 hp en las versiones GLI.",
+                "Consumo de Combustible: Aproximadamente 30 MPG en ciudad / 40 MPG en carretera.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: Aproximadamente 14.1 pies cúbicos en el maletero.",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de hasta 8 pulgadas, compatible con Apple CarPlay y Android Auto, sistema de sonido BeatsAudio disponible en algunas versiones.",
+                "Seguridad: Equipado con sistemas avanzados de asistencia al conductor como frenado automático de emergencia, asistente de mantenimiento de carril, monitoreo de punto ciego, y múltiples airbags."
+            ]
+        },
+        {
+            "id": "p37",
+            "nombre": "Volkswagen Golf 2020",
+            "precio": 17000,
+            "descripcion": "Hatchback compacto reconocido por su diseño icónico, dinámica de conducción ágil y tecnología avanzada.",
+            "imagen": "/img/inventario/golf.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motores de gasolina y diésel disponibles, transmisión manual o automática de 6 velocidades.",
+                "Potencia: Varía según la versión, típicamente entre 110 hp y 300 hp en las versiones deportivas GTI y R.",
+                "Consumo de Combustible: Aproximadamente 30 MPG en ciudad / 40 MPG en carretera, dependiendo del motor.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: Aproximadamente 17.4 pies cúbicos en el maletero.",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de hasta 8 pulgadas, compatible con Apple CarPlay y Android Auto, sistema de sonido premium disponible en algunas versiones.",
+                "Seguridad: Equipado con sistemas avanzados de asistencia al conductor como frenado automático de emergencia, asistente de mantenimiento de carril, monitoreo de punto ciego, y múltiples airbags."
+            ]
+        },
+        {
+            "id": "p38",
+            "nombre": "Mitsubishi Outlander",
+            "precio": 28000,
+            "descripcion": "SUV familiar que combina un diseño robusto con espacio interior versátil y tecnología avanzada.",
+            "imagen": "/img/inventario/outlander.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor de gasolina disponible, transmisión automática CVT de 8 velocidades.",
+                "Potencia: Alrededor de 181 hp.",
+                "Consumo de Combustible: Aproximadamente 24 MPG en ciudad / 30 MPG en carretera.",
+                "Capacidad de Pasajeros: 7 en algunas configuraciones, 5 en otras.",
+                "Capacidad de Carga: Aproximadamente 33.5 pies cúbicos en el maletero (segunda fila levantada).",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de hasta 9 pulgadas, compatible con Apple CarPlay y Android Auto, sistema de sonido premium Bose disponible.",
+                "Seguridad: Equipado con sistemas avanzados de asistencia al conductor como frenado automático de emergencia, monitoreo de punto ciego, asistente de mantenimiento de carril, y múltiples airbags."
+            ]
+        },
+        {
+            "id": "p39",
+            "nombre": "Mitsubishi Eclipse Cross 2020",
+            "precio": 26500,
+            "descripcion": "Este SUV ofrece un equilibrio entre estilo deportivo y funcionalidad para adaptarse a cualquier sitación. ",
+            "imagen": "/img/inventario/eclipse.png",
+            "caracteristicas": [
+                "Motor y Transmisión: Motor de gasolina disponible, transmisión automática CVT de 8 velocidades.",
+                "Potencia: Alrededor de 152 hp.",
+                "Consumo de Combustible: Aproximadamente 26 MPG en ciudad / 29 MPG en carretera.",
+                "Capacidad de Pasajeros: 5.",
+                "Capacidad de Carga: Aproximadamente 22.6 pies cúbicos en el maletero.",
+                "Tecnología: Sistema de infoentretenimiento con pantalla táctil de 7 pulgadas, compatible con Apple CarPlay y Android Auto, sistema de sonido premium disponible en algunas versiones.",
+                "Seguridad: Equipado con sistemas avanzados de asistencia al conductor como frenado automático de emergencia, monitoreo de punto ciego, asistente de mantenimiento de carril, y múltiples airbags."
+            ]
+        },
+        {
+            "id": "p40",
+            "nombre": "Mitsubishi Montero Sport 2024",
+            "precio": 48000,
+            "descripcion": "Una SUV de lujo y alto desempeño con un diseño audaz y refinado.",
+            "imagen": "/img/inventario/montero.png",
+            "caracteristicas": [
+                "Diseño exterior impresionante con faros afilados, parrilla sólida, llantas de aleación de 16, 18, 19 y luces traseras distintivas",
+                "Interior lujoso y espacioso con asientos delanteros eléctricos y ajuste lumbar",
+                "Motor diésel de inyección directa MIVEC de 2.4L",
+                "Transmisión automática de 8 velocidades",
+                "Tracción 4x4 con bloqueo diferencial trasero",
+                "Modo Off-Road y ángulos de ataque, salida y ventral mejorados para terreno difícil",
+                "Paddle Shifters, Cruise Control, y asistencia de cambio de carril y punto ciego",
+                "Amplia capacidad de carga y remolque"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favoritos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="favoritos.css">
+</head>
+
+<body>
+    <header class="header-section">
+        <a href="/pages/homepage/index.html"><img id="logo" src="/img/tas.png" alt="logo"></a>
+        <div class="search-container">
+			<i class="fa-solid fa-magnifying-glass"></i>
+			<form id="searchForm">
+				<input type="text" id="searchInput" placeholder="Buscar...">
+			</form>
+		</div>
+		<nav class="nav-section">
+			<ul>
+				<li><a href="/pages/inventarypage/inventary.html">INVENTARIO</a></li>
+				<li><a href="/pages/aboutuspage/aboutus.html">NOSOTROS</a></li>
+				<li><a href="/pages/contactpage/contact.html">CONTACTO</a></li>
+				<li><a class="icon-star" href="/pages/favoritespage/favoritos.html">FAVORITOS</a></li>
+				<li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+			</ul>
+		</nav>
+        <div class="menu-icon" onclick="toggleMenu()"><i class="fa-solid fa-caret-down"></i></div>
+    </header>
+    <main>
+        <h1 class="favoritos-title">MIS FAVORITOS</h>
+        <div id="favoritos-container">
+            
+        </div>
+    </main>
+
+    <footer class="footer-section">
+		<div class="area-1">
+			<div class="area">
+				<figure>
+					<a href="index.html">
+						<img src="/img/tas.png" alt="logo">
+					</a>
+				</figure>
+			</div>
+			<div class="area">
+				<h4>NAVEGACIÓN</h4>
+				<ul>
+					<a href="/pages/inventarypage/inventary.html">
+						<li>Inventario</li>
+					</a>
+					<a href="/pages/aboutuspage/aboutus.html">
+						<li>Nosotros</li>
+					</a>
+					<a href="/pages/contactpage/contact.html">
+						<li>Contacto</li>
+					</a>
+					<a href="/pages/favoritespage/favoritos.html">
+						<li>Favoritos</li>
+					</a>
+					</a>
+				</ul>
+			</div>
+			<div class="area">
+				<h4>CONTÁCTANOS</h4>
+				<section class="social">
+					<a href="#" class="fa-brands fa-square-whatsapp"></a>
+					<a href="#" class="fa-brands fa-square-facebook"></a>
+					<a href="#" class="fa-brands fa-square-instagram"></a>
+					<a href="#" class="fa-brands fa-square-x-twitter"></a>
+				</section>
+			</div>
+		</div>
+		<div class="area-2">
+			<small>&copy; 2024 <b>TuAutoServices</b> - Todos los Derechos Reservados.</small>
+		</div>
+	</footer>
+
+
+
+
+    <script src="https://kit.fontawesome.com/8c436d0797.js" crossorigin="anonymous"></script>
+    <script src="/pages/javascript/script.js"></script>
+</body>
+
+</html>
