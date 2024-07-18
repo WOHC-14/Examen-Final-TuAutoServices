@@ -8,6 +8,7 @@
 body {
 	background-color: white;
     line-height: 1.6;
+	height: 100%;
 }
 
 .header-section {
@@ -46,7 +47,7 @@ body {
 }
 
 #searchInput::placeholder {
-	font-family: 'Josefin Sans';
+	font-family: 'Lato';
 	font-size: 16px;
 	height: 20px;
 }
@@ -102,83 +103,6 @@ li a .fa-solid {
 transform: rotate(180deg);
 }
 
-
-@media (max-width: 1100px) {
-	.search-container {
-        margin: 0;
-
-        width: 400px;
-    }
-}
-@media (max-width: 1000px) {
-	.search-container {
-        margin: 0;
-
-        width: 300px;
-    }
-}
-@media (max-width: 900px) {
-	.search-container {
-        margin: 0;
-
-        width: 200px;
-    }
-}
-@media (max-width: 850px) {
-	.search-container {
-        margin: 0;
-
-        width:150px;
-    }
-}
-@media (max-width: 800px) {
-    .header-section {
-        flex-direction: column;
-        height: auto;
-        padding: 15px;
-    }
-
-    #logo {
-        margin: 0;
-        margin-bottom: 15px;
-    }
-
-    .search-container {
-        margin: 0;
-        margin-bottom: 15px;
-        width: 100%;
-    }
-
-    .nav-section {
-        display: none;
-        margin: 0;
-		
-    }
-	
-
-    .nav-section ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        background-color: black;
-        padding: 10px;
-        border-radius: 0 0 15px 15px;
-    }
-
-    .menu-icon {
-        display: block;
-        font-size: 30px;
-        color: white;
-        cursor: pointer;
-    }
-	
-}
-
-@media (min-width: 769px) {
-    .menu-icon {
-        display: none;
-    }
-}
 
 
 /* Contenedor principal */
@@ -287,11 +211,7 @@ details li {
 }
 
 
-@media (max-width: 768px) {
-    .producto-detalle {
-        grid-template-columns: 1fr;
-    }
-}
+
 
 /*CSS PAGINA DE CHECKOUT*/
 .checkout-container {
@@ -435,11 +355,185 @@ transition: all 300ms ease;
 	font-family: "Lato";
 }
 
-@media screen and (max-width: 800px) { 
-	.footer-section .area-1 {
+
+@media (max-width: 1000px) {
+
+
+	.header-section {
+		flex-direction: column;
+		height: auto;
+		justify-content: center;
+	}
+
+	#logo {
+		margin: 0;
+		margin-top: 20px;
+		width: 200px;
+		height: 200px;
+	}
+
+	.search-container {
 		width: 90%;
-		grid-template-columns: repeat(1, 1fr);
-		gap: 30px;
-		padding: 35px 0px;
+		height: 90px;
+		border-radius: 50px;
+		margin-top: 10px;
+	}
+
+	.search-container i {
+		font-size: 60px;
+		margin-left: 15px;
+	}
+
+	#searchForm {
+		height: 90px;
+		width: 100%;
+	}
+
+	#searchInput {
+		font-size: 45px;
+		height: 90px;
+		width: 100%;
+		border-radius: 50px;
+		margin-left: 10px;
+	}
+
+	#searchInput::placeholder {
+		font-size: 45px;
+		height: 60px;
+		width: 100%;
+	}
+	.menu-icon {
+		display: block;
+		font-size: 30px;
+		color: white;
+		cursor: pointer;
+	}
+	.menu-icon i {
+		font-size: 80px;
+		margin-top: 25px;
+	}
+
+	.nav-section {
+		display: none;
+		margin: 0;
+		margin-top: 50px;
+	}
+
+
+	.nav-section ul {
+		flex-direction: column;
+		align-items: center;
+		background-color: black;
+		line-height: 20px;
+	}
+	.nav-section ul li {
+		margin-top: 25px;
+	}
+	li a {
+		font-size: 35px;
+	}
+
+li a .fa-solid {
+	font-size: 50px;
+}
+
+
+    #producto-detalle {
+        padding: 1rem;
+    }
+    
+    .producto-detalle {
+        grid-template-columns: 1fr;
+    }
+    
+    .producto-detalle img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    .name-price h2 {
+		 margin-left: 25px;
+		 margin-right: 25px;
+        font-size: 70px;
+    }
+    
+    .name-price h3 {
+		margin-left: 25px;
+		margin-right: 25px;
+        font-size: 60px;
+    }
+    
+    .producto-detalle button {
+		margin-left: 25px;
+		margin-right: 25px;
+        font-size: 50px;
+        padding: 40px;
+        height: auto;
+		margin-top: 25px;
+    }
+    
+    .description {
+		margin-left: 25px;
+		margin-right: 25px;
+		margin-top: 100px;
+        font-size: 40px;
+		width: auto;
+    }
+    
+    details {
+		margin-left: 25px;
+		margin-right: 25px;
+        font-size: 50px;
+	
+    }
+    
+    details li {
+        font-size: 20px;
+    }
+
+
+
+    .footer-section .area-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        padding: 35px 0px;
+    }
+
+	.footer-section .area-1 .area figure img {
+		width: 300px;
+		margin-top: 25px;
+	}
+	
+	.footer-section .area-1 .area h4 {
+		font-size: 50px;
+		margin-top: 80px;
+	}
+	.footer-section .area-1 .area li  {
+		font-size: 40px;
+		line-height: 70px;
+	}
+	.footer-section .area-1 .area .social a {
+		width: 100px;
+		height: 100px;
+		font-size: 100px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+
+	.footer-section .area-2 {
+		height: 90px;
+	}
+	.footer-section .area-2 small {
+		font-size: 32px;
+	}
+
+
+}
+
+@media (min-width: 1200px) {
+	.menu-icon {
+		display: none;
 	}
 }

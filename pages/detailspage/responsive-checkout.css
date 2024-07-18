@@ -1,0 +1,140 @@
+@media (max-width: 1000px) {
+
+
+	.header-section {
+		flex-direction: column;
+		height: auto;
+		justify-content: center;
+
+	}
+
+	#logo {
+		margin: 0;
+		margin-top: 5px;
+		height: 75px;
+		width: 75px;
+	}
+
+	.search-container {
+		width: 90%;
+		height: 35px;
+		border-radius: 50px;
+		margin-top: 2px;
+	}
+
+	.search-container i {
+		font-size: 25px;
+        margin-left: -1px;
+        margin-top: 2px;
+	}
+
+	#searchForm {
+		height: 35px;
+		width: 100%;
+        margin-left: -15px;
+	}
+
+	#searchInput {
+		font-size: 16px;
+		height: 35px;
+		width: 100%;
+		border-radius: 50px;
+	}
+
+	#searchInput::placeholder {
+		font-size: 16px;
+		height: 35px;
+		width: 100%;
+	}
+	.menu-icon {
+		display: block;
+		color: white;
+		cursor: pointer;
+	}
+	.menu-icon i {
+		font-size: 30px;
+		margin-top: 10px;
+
+	}
+
+	.nav-section {
+		display: none;
+		margin: 0;
+		margin-top: 20px;
+	}
+
+
+	.nav-section ul {
+		margin-top: 15px;
+		flex-direction: column;
+		align-items: center;
+		line-height: 5px;
+	}
+
+	li a {
+		font-size: 14px;
+	}
+
+.fa-solid {
+	font-size: 20px;
+}
+
+.main-confirmation {
+width: auto;
+margin: 15px;
+}
+.confirmacion-tittle{
+font-size: 50px;
+}
+
+.confirmacion-p {
+	font-size: 22px;
+}
+
+
+    .footer-section .area-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        padding: 35px 0px;
+		
+    }
+
+	.footer-section .area-1 .area figure img {
+		width: 150px;
+		margin-top: 20px;
+	}
+	
+	.footer-section .area-1 .area h4 {
+		font-size: 26px;
+		margin-top: 50px;
+	}
+	.footer-section .area-1 .area li  {
+		font-size: 20px;
+		line-height: 40px;
+	}
+	.footer-section .area-1 .area .social a {
+		width: 60px;
+		height: 60px;
+		font-size: 60px;
+		margin-top: 10px;
+		margin-bottom: 25px;
+
+	}
+
+
+	.footer-section .area-2 {
+		height: 55px;
+	}
+	.footer-section .area-2 small {
+		font-size: 14px;
+	}
+
+
+}
+
+@media (min-width: 1200px) {
+	.menu-icon {
+		display: none;
+	}
+}

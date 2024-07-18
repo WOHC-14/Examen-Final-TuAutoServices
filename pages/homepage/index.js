@@ -17,19 +17,7 @@ var swiper1 = new Swiper('.swiper-container', {
 });
 
 
-  //menu desplegable
-  function toggleMenu() {
-    const navSection = document.querySelector('.nav-section');
-    const menuIcon = document.querySelector('.menu-icon');
-    
-    if (navSection.style.display === 'flex') {
-      navSection.style.display = 'none';
-      menuIcon.classList.remove('active');
-    } else {
-      navSection.style.display = 'flex';
-      menuIcon.classList.add('active');
-    }
-  }
+
     
 
    

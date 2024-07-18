@@ -1,10 +1,20 @@
 
+document.addEventListener('DOMContentLoaded', () => {
+  const checkoutForm = document.getElementById('checkoutForm');
 
-  // Redirigir a la página de checkout
-  window.location.href = "checkout.html";
+  checkoutForm.addEventListener('submit', (event) => {
+      event.preventDefault(); // Evita el envío del formulario por defecto
 
-  function simulatePayment() {
-    alert("Pago simulado exitosamente");
-    // Redirigir a la página de confirmación
-    window.location.href = "confirmacion.html";
+      if (checkoutForm.checkValidity()) {
+          simulatePayment();
+      } else {
+          checkoutForm.reportValidity(); // Muestra mensajes de validación nativos del navegador
+      }
+  });
+});
+
+function simulatePayment() {
+
+  // Redirección a la página de confirmación
+  window.location.href = 'confirmation.html';
 }
