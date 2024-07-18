@@ -101,82 +101,6 @@ transform: rotate(180deg);
 }
 
 
-@media (max-width: 1100px) {
-	.search-container {
-        margin: 0;
-
-        width: 400px;
-    }
-}
-@media (max-width: 1000px) {
-	.search-container {
-        margin: 0;
-
-        width: 300px;
-    }
-}
-@media (max-width: 900px) {
-	.search-container {
-        margin: 0;
-
-        width: 200px;
-    }
-}
-@media (max-width: 850px) {
-	.search-container {
-        margin: 0;
-
-        width:150px;
-    }
-}
-@media (max-width: 800px) {
-    .header-section {
-        flex-direction: column;
-        height: auto;
-        padding: 15px;
-    }
-
-    #logo {
-        margin: 0;
-        margin-bottom: 15px;
-    }
-
-    .search-container {
-        margin: 0;
-        margin-bottom: 15px;
-        width: 100%;
-    }
-
-    .nav-section {
-        display: none;
-        margin: 0;
-		
-    }
-	
-
-    .nav-section ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        background-color: black;
-        padding: 10px;
-        border-radius: 0 0 15px 15px;
-    }
-
-    .menu-icon {
-        display: block;
-        font-size: 30px;
-        color: white;
-        cursor: pointer;
-    }
-	
-}
-
-@media (min-width: 769px) {
-    .menu-icon {
-        display: none;
-    }
-}
 
 #searchResults {
     margin-left: 10px;
@@ -266,3 +190,216 @@ transform: rotate(180deg);
     
 
 
+     .footer-section {
+        margin-top: 95px;
+        width: 100%;
+        background-color: black;
+    }
+    
+    .footer-section .area-1 {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        padding: 45px 0px;
+    }
+    
+    .footer-section .area-1 .area figure {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-section .area-1 .area figure img {
+        width: 150px;
+    }
+    
+    .footer-section .area-1 .area h4 {
+        color: white;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    
+    .footer-section .area-1 .area a {
+        text-decoration: none;
+    }
+    
+    .footer-section .area-1 .area li {
+        color: white;
+        line-height: 38px;
+        font-family: "Lato";
+        font-size: 18px;
+        transition: color .2s ease-in-out;
+        width: 85px;
+    }
+    
+    .footer-section .area-1 .area li:hover {
+        color: #F3141B;
+    }
+    
+    .footer-section .area-1 .area .social a {
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        color: white;
+        margin-right: 10px;
+        background-color: rgb(14, 14, 14);
+        text-align: center;
+        font-size: 40px;
+        transition: all 300ms ease;
+    }
+    
+    .footer-section .area-1 .area .social a:hover {
+    
+        color: #F3141B;
+    }
+    
+    .footer-section .area-2 {
+        background-color: rgb(11, 11, 11);
+        padding: 15px 10px;
+        text-align: center;
+        color: white;
+    }
+    
+    .footer-section .area-2 small {
+        font-size: 15px;
+        font-family: "Lato";
+    }
+    @media (max-width: 1000px) {
+    
+    
+        .header-section {
+            flex-direction: column;
+            height: auto;
+            justify-content: center;
+    
+        }
+    
+        #logo {
+            margin: 0;
+            margin-top: 5px;
+            height: 75px;
+            width: 75px;
+        }
+    
+        .search-container {
+            width: 90%;
+            height: 35px;
+            border-radius: 50px;
+            margin-top: 2px;
+        }
+    
+        .search-container i {
+            font-size: 25px;
+        }
+    
+        #searchForm {
+            height: 35px;
+            width: 100%;
+        }
+    
+        #searchInput {
+            font-size: 16px;
+            height: 35px;
+            width: 100%;
+            border-radius: 50px;
+            margin-top: 0;
+        }
+    
+        #searchInput::placeholder {
+            font-size: 16px;
+            height: 35px;
+            width: 100%;
+        }
+        .menu-icon {
+            display: block;
+            color: white;
+            cursor: pointer;
+        }
+        .menu-icon i {
+            font-size: 30px;
+            margin-top: 10px;
+    
+        }
+    
+        .nav-section {
+            display: none;
+            margin: 0;
+            margin-top: 20px;
+        }
+    
+    
+        .nav-section ul {
+            margin-top: 15px;
+            flex-direction: column;
+            align-items: center;
+            line-height: 5px;
+        }
+    
+        li a {
+            font-size: 14px;
+        }
+    
+    .fa-solid {
+        font-size: 20px;
+    }
+    
+    #searchResults {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    
+        .footer-section .area-1 {
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 30px;
+            padding: 35px 0px;
+            
+        }
+    
+        .footer-section .area-1 .area figure img {
+            width: 150px;
+            margin-top: 20px;
+        }
+        
+        .footer-section .area-1 .area h4 {
+            font-size: 26px;
+            margin-top: 50px;
+        }
+        .footer-section .area-1 .area li  {
+            font-size: 20px;
+            line-height: 40px;
+        }
+        .footer-section .area-1 .area .social a {
+            width: 60px;
+            height: 60px;
+            font-size: 60px;
+            margin-top: 10px;
+            margin-bottom: 25px;
+    
+        }
+    
+    
+        .footer-section .area-2 {
+            height: 55px;
+        }
+        .footer-section .area-2 small {
+            font-size: 14px;
+        }
+    
+    
+    }
+    
+    @media (min-width: 1200px) {
+        .menu-icon {
+            display: none;
+        }
+    }
+    

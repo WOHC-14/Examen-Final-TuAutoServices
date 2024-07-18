@@ -42,3 +42,9 @@ function mostrarProducto(producto) {
     `;
 }
 
+
+	    function comprar() {
+        // Redirigir a la página de checkout
+        window.location.href = "checkout.html";
+    }
+

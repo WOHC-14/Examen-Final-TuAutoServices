@@ -1,4 +1,3 @@
-
 * {
 	margin: 0;
 	padding: 0;
@@ -7,10 +6,8 @@
 
 body {
 	background-color: white;
-    line-height: 1.6;
 	height: 100%;
 }
-
 
 .header-section {
 	display: flex;
@@ -45,12 +42,13 @@ body {
 	border-radius: 15px;
 	width: 515px;
 	height: 30px;
+margin-top: 15px;
 }
 
 #searchInput::placeholder {
 	font-family: 'Lato';
 	font-size: 16px;
-	height: 20px;
+	height: 30px;
 }
 
 .search-container i {
@@ -86,11 +84,12 @@ li a:hover {
 }
 
 
-li a .fa-solid {
+.fa-solid {
 	color: white;
 	font-size: 20px;
 	transition: color .2s ease-in-out;
 }
+
 .fa-solid:hover {
 	color: #F3141B;
 }
@@ -98,86 +97,69 @@ li a .fa-solid {
 
 .menu-icon i {
 	transition: transform 0.3s ease;
-  }
+}
 
 .menu-icon.active i {
-transform: rotate(180deg);
+	transform: rotate(180deg);
 }
 
 
-.checkout-container {
-    margin: auto ;
-    background-color: #fff;
+.container {
+    max-width: 400px;
+    margin: 50px auto;
     padding: 20px;
+    background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    max-width: 600px;
-    width: 100%;
-    font-family: "Lato";
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.checkout-container h1 {
-    margin-top: 0;
-    font-family: "Josefin Sans";
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans';
 }
-.checkout-container label {
-    display: block;
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato';
+	height: auto;
+}
+
+label {
     margin-bottom: 5px;
     font-weight: bold;
 }
-.checkout-container input, .checkout-container select {
-    width: 100%;
+
+input {
+    margin-bottom: 15px;
     padding: 10px;
-    margin-bottom: 20px;
     border: 1px solid #ccc;
-    border-radius: 25px;
+    border-radius: 50px;
+	margin-top: 10px;
 }
-.checkout-container button {
-    width: 100%;
-    padding: 15px;
+
+button {
+	font-family: 'Lato';
+	margin-top: 35px;
+    padding: 10px;
     background-color: #F3141B;
-    color: #fff;
+    color: white;
     border: none;
     border-radius: 50px;
-    font-size: 28px;
     cursor: pointer;
-    font-family: "Lato";
-    font-weight: 800;
+    font-size: 20px;
 }
-.checkout-container button:hover {
+
+button:hover {
     background-color: black;
 }
-.order-summary {
-    background-color: #f9f9f9;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-.order-summary h2 {
-    margin-top: 0;
-}
-
-
-.main-confirmation {
-    height: 500px;
-    margin-top: 50px;
-}
-
-.confirmacion-tittle {
-    font-family: "Josefin Sans";
-    font-size: 60px;
-}
-.confirmacion-p {
-    font-family: "Lato";
-    font-size: 28px;
-}
-
-
 .footer-section {
 	margin-top: 95px;
 	width: 100%;
 	background-color: black;
 }
+
 .footer-section .area-1 {
 	width: 100%;
 	max-width: 1200px;
@@ -187,6 +169,7 @@ transform: rotate(180deg);
 	gap: 50px;
 	padding: 45px 0px;
 }
+
 .footer-section .area-1 .area figure {
 	width: 100%;
 	height: 100%;
@@ -194,15 +177,18 @@ transform: rotate(180deg);
 	justify-content: center;
 	align-items: center;
 }
+
 .footer-section .area-1 .area figure img {
 	width: 150px;
 }
+
 .footer-section .area-1 .area h4 {
 	color: white;
 	font-family: "Josefin Sans";
 	font-size: 20px;
 	margin-bottom: 25px;
 }
+
 .footer-section .area-1 .area a {
 	text-decoration: none;
 }
@@ -215,39 +201,41 @@ transform: rotate(180deg);
 	transition: color .2s ease-in-out;
 	width: 85px;
 }
+
 .footer-section .area-1 .area li:hover {
 	color: #F3141B;
 }
+
 .footer-section .area-1 .area .social a {
-display: inline-block;
-text-decoration: none;
-width: 45px;
-height: 45px;
-line-height: 45px;
-color: white;
-margin-right: 10px;
-background-color: rgb(14, 14, 14);
-text-align: center;
-font-size: 40px;
-transition: all 300ms ease;
+	display: inline-block;
+	text-decoration: none;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	color: white;
+	margin-right: 10px;
+	background-color: rgb(14, 14, 14);
+	text-align: center;
+	font-size: 40px;
+	transition: all 300ms ease;
 }
-.footer-section .area-1 .area .social a:hover{
+
+.footer-section .area-1 .area .social a:hover {
 
 	color: #F3141B;
 }
+
 .footer-section .area-2 {
 	background-color: rgb(11, 11, 11);
 	padding: 15px 10px;
 	text-align: center;
 	color: white;
 }
+
 .footer-section .area-2 small {
 	font-size: 15px;
 	font-family: "Lato";
 }
-
-
-
 @media (max-width: 1000px) {
 
 
@@ -274,8 +262,6 @@ transition: all 300ms ease;
 
 	.search-container i {
 		font-size: 25px;
-        margin-left: -1px;
-        margin-top: 2px;
 	}
 
 	#searchForm {
@@ -288,7 +274,7 @@ transition: all 300ms ease;
 		height: 35px;
 		width: 100%;
 		border-radius: 50px;
-		font-family: 'Lato';
+		margin-top: 0;
 	}
 
 	#searchInput::placeholder {
@@ -304,39 +290,29 @@ transition: all 300ms ease;
 	.menu-icon i {
 		font-size: 30px;
 		margin-top: 10px;
+
 	}
 
 	.nav-section {
 		display: none;
 		margin: 0;
-		margin-top: 35px;
+		margin-top: 20px;
 	}
 
 
 	.nav-section ul {
+		margin-top: 15px;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
 		line-height: 5px;
 	}
-	.nav-section ul li a {
+
+	li a {
 		font-size: 14px;
 	}
 
-.nav-section .fa-solid {
-	font-size: 25px;
-}
-
-.main-confirmation {
-width: auto;
-margin: 15px;
-}
-.confirmacion-tittle{
-font-size: 50px;
-}
-
-.confirmacion-p {
-	font-size: 22px;
+.fa-solid {
+	font-size: 20px;
 }
 
 
@@ -386,3 +362,5 @@ font-size: 50px;
 		display: none;
 	}
 }
+
+
