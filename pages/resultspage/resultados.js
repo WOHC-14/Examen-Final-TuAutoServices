@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const searchTerm = urlParams.get('search');
 
     if (searchTerm) {
-        fetch('/pages/inventarypage/inventary.html')
+        fetch('../inventarypage/inventary.html')
             .then(response => response.text())
             .then(html => {
                 const parser = new DOMParser();

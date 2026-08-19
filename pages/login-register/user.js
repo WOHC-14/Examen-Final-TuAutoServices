@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log('Inicio de sesión:', { email, password });
 
             alert('Inicio de sesión exitoso.');
-            window.location.href = '/pages/homepage/index.html'; // Redirige a la página principal después del inicio de sesión
+            window.location.href = '../homepage/index.html'; // Redirige a la página principal después del inicio de sesión
         });
     }
 });

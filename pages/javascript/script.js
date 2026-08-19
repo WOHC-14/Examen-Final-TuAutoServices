@@ -101,7 +101,7 @@ document.getElementById('searchForm').addEventListener('submit', function(e) {
     e.preventDefault();
     const searchTerm = document.getElementById('searchInput').value.trim();
     if (searchTerm) {
-        window.location.href = `/pages/resultspage/resultados.html?search=${encodeURIComponent(searchTerm)}`;
+        window.location.href = `../resultspage/resultados.html?search=${encodeURIComponent(searchTerm)}`;
     }
 });
 

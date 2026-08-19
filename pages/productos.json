@@ -5,7 +5,7 @@
             "nombre": "Ford Escape 2024",
             "precio": 28500,
             "descripcion": "Un SUV compacto que ofrece opciones de motorización híbridas y plug-in híbridas.",
-            "imagen": "/img/inventario/ford-escape.png",
+            "imagen": "../../img/inventario/ford-escape.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor turbo de 1.5 litros y 3 cilindros, Transmisión automática de 8 velocidades.",
                 "Potencia: 181 hp.",
@@ -22,7 +22,7 @@
             "nombre": "Honda CR-V 2024",
             "precio": 29000,
             "descripcion": "Un SUV compacto con amplio espacio interior y características avanzadas de seguridad.",
-            "imagen": "/img/inventario/honda-crv.png",
+            "imagen": "../../img/inventario/honda-crv.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor turbo de 1.5 litros y 4 cilindros, Transmisión automática CVT.",
                 "Potencia: 190 hp. ",
@@ -39,7 +39,7 @@
             "nombre": "Kia Forte 2024",
             "precio": 28000,
             "descripcion": "Un sedán compacto que combina estilo, tecnología y eficiencia de combustible.",
-            "imagen": "/img/inventario/kia-forte.png",
+            "imagen": "../../img/inventario/kia-forte.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor de 2.0 litros y 4 cilindros, Transmisión automática CVT.",
                 "Potencia: 147 hp.",
@@ -56,7 +56,7 @@
             "nombre": "Chevrolet Malibu 2024",
             "precio": 25000,
             "descripcion": "Un sedán mediano que combina estilo, tecnología y eficiencia. Ofrece un interior espacioso.",
-            "imagen": "/img/inventario/Malibu.png",
+            "imagen": "../../img/inventario/Malibu.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor turbo de 1.5 litros y 4 cilindros, Transmisión automática CVT.",
                 "Potencia: 160 hp.",
@@ -73,7 +73,7 @@
             "nombre": "Mazda CX-5 2024",
             "precio": 28000,
             "descripcion": "Un SUV compacto con un diseño elegante, interior de alta calidad y manejo ágil.",
-            "imagen": "/img/inventario/mazda-cx-5.png",
+            "imagen": "../../img/inventario/mazda-cx-5.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor de 2.5 litros y 4 cilindros, Transmisión automática de 6 velocidades.",
                 "Potencia: 187 hp.",
@@ -90,7 +90,7 @@
             "nombre": "Mitsubishi Mirage 2024",
             "precio": 16000,
             "descripcion": "Un subcompacto económico que destaca por su eficiencia de combustible y precio accesible.",
-            "imagen": "/img/inventario/mirage.png",
+            "imagen": "../../img/inventario/mirage.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor de 1.2 litros y 3 cilindros, Transmisión automática CVT.",
                 "Potencia: 78 hp.",
@@ -107,7 +107,7 @@
             "nombre": "Nissan Rogue 2024",
             "precio": 27000,
             "descripcion": "Un SUV con un diseño moderno y una buena combinación de potencia y eficiencia de combustible.",
-            "imagen": "/img/inventario/nissan-rogue.png",
+            "imagen": "../../img/inventario/nissan-rogue.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor de 2.5 litros y 4 cilindros, Transmisión automática CVT.",
                 "Potencia: 181 hp.",
@@ -124,7 +124,7 @@
             "nombre": "Volkswagen Tiguan 2024",
             "precio": 29000,
             "descripcion": "Un SUV con un interior de alta calidad y varias opciones de motorización, incluyendo híbrida.",
-            "imagen": "/img/inventario/tiguan.webp",
+            "imagen": "../../img/inventario/tiguan.webp",
             "caracteristicas": [
                 "Motor y Transmisión: Motor turbo de 2.0 litros y 4 cilindros, Transmisión automática de 8 velocidades.",
                 "Potencia: 184 hp.",
@@ -141,7 +141,7 @@
             "nombre": "Toyota RAV4 2024",
             "precio": 28000,
             "descripcion": "Un carro con buena economía de combustible y varias opciones de motorización, incluyendo híbrido.",
-            "imagen": "/img/inventario/toyota-rav4.png",
+            "imagen": "../../img/inventario/toyota-rav4.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor de 2.5 litros y 4 cilindros, Transmisión automática de 8 velocidades.",
                 "Potencia: 203 hp.",
@@ -158,7 +158,7 @@
             "nombre": "Hyundai Tucson 2024",
             "precio": 27500,
             "descripcion": "Un carro con un diseño audaz, tecnología avanzada y una variedad de opciones de motorización.",
-            "imagen": "/img/inventario/tucson.png",
+            "imagen": "../../img/inventario/tucson.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor de 2.5 litros y 4 cilindros, Transmisión automática de 8 velocidades.",
                 "Potencia: 187 hp.",
@@ -175,7 +175,7 @@
             "nombre": "Honda Civic Type R 2024",
             "precio": 45500,
             "descripcion": "Un hatchback de alto rendimiento. Equipado con un motor turbo de 2.0 litros y tecnología avanzada.",
-            "imagen": "/img/inventario/civic.png",
+            "imagen": "../../img/inventario/civic.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor turbo de 2.0 litros y 4 cilindros, transmisión manual de 6 velocidades.",
                 "Potencia: 315 hp.",
@@ -192,7 +192,7 @@
             "nombre": "Toyota Hilux Gr Sport II 2024",
             "precio": 50000,
             "descripcion": "Un modelo de alta gama diseñado para ofrecer un rendimiento superior en cualquier terreno.",
-            "imagen": "/img/inventario/hilux.png",
+            "imagen": "../../img/inventario/hilux.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor diésel de 2.8 litros y 4 cilindros, transmisión automática de 6 velocidades.",
                 "Potencia: 201 hp.",
@@ -209,7 +209,7 @@
             "nombre": "Chevrolet Equinox 2022",
             "precio": 24500,
             "descripcion": "SUV compacto versátil y eficiente, ideal para familias y aventuras diarias. Con un motor turbo de 1.5 litros",
-            "imagen": "/img/inventario/equinox.png",
+            "imagen": "../../img/inventario/equinox.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor turbo de 1.5 litros y 4 cilindros, transmisión automática de 6 velocidades.",
                 "Potencia: 170 hp.",
@@ -226,7 +226,7 @@
             "nombre": "Toyota Corolla Cross 2024",
             "precio": 34500,
             "descripcion": "Basado en el popular sedán Corolla, el Corolla Cross ofrece un poco más de espacio y altura, ideal para familias.",
-            "imagen": "/img/inventario/corolla.png",
+            "imagen": "../../img/inventario/corolla.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor 2.0L D-4S gasolina, 4 cilindros, 16 válvulas DOHC Dual VVT-i, transmisión automática.",
                 "Potencia: 170 hp.",
@@ -243,7 +243,7 @@
             "nombre": "Toyota Camry TRD 2024",
             "precio": 40000,
             "descripcion": "Este modelo deportivo cuenta con un motor V6 de 3.5 litros que entrega 301 caballos de fuerza y buena suspensión.",
-            "imagen": "/img/inventario/camrytrd.png",
+            "imagen": "../../img/inventario/camrytrd.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor 3.5L V6 gasolina, 24 válvulas DOHC, transmisión automática de 8 velocidades.",
                 "Potencia: 301HP@6600rpm.",
@@ -260,7 +260,7 @@
             "nombre": "Ford Mustang",
             "precio": 43000,
             "descripcion": "Este deportivo ofrece una mezcla perfecta de potencia, tecnología avanzada y estilo icónico. ",
-            "imagen": "/img/inventario/mustang.png",
+            "imagen": "../../img/inventario/mustang.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor turbo de 2.3 litros y 4 cilindros, V8 de 5.0 litros, Transmisión manual de 6 velocidades o automática de 10 velocidades.",
                 "Potencia: Desde 310 hp en el EcoBoost hasta 500 hp en el modelo Dark Horse.",
@@ -277,7 +277,7 @@
             "nombre": "Toyota Tacoma 2024",
             "precio": 44500,
             "descripcion": "Una camioneta mediana diseñada para ofrecer una combinación de durabilidad y modernidad.",
-            "imagen": "/img/inventario/tacoma.png",
+            "imagen": "../../img/inventario/tacoma.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor turbo de 2.4 litros y 4 cilindros, combinado con un motor eléctrico de 48 hp, transmisión automática de 8 velocidades.",
                 "Potencia: 326 hp.",
@@ -294,7 +294,7 @@
             "nombre": "Mazda 3 2023",
             "precio": 23500,
             "descripcion": "Un automóvil compacto disponible en versiones sedán y hatchback, conocido por su estilo elegante y dinámico.",
-            "imagen": "/img/inventario/honda-crv.png",
+            "imagen": "../../img/inventario/honda-crv.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor de 2.5 litros y 4 cilindros, transmisión automática de 6 velocidades.",
                 "Potencia: 191 hp.",
@@ -311,7 +311,7 @@
             "nombre": "Mazda CX-9 2021",
             "precio": 26500,
             "descripcion": "Un SUV de tres filas que destaca por su diseño elegante, su manejo ágil y su lujoso interior.",
-            "imagen": "/img/inventario/cx9.webp",
+            "imagen": "../../img/inventario/cx9.webp",
             "caracteristicas": [
                 "Motor y Transmisión: Motor turbo de 2.5 litros y 4 cilindros, transmisión automática de 6 velocidades.",
                 "Potencia: 250 hp (227 hp con gasolina regular).",
@@ -328,7 +328,7 @@
             "nombre": "Mazda MX-5 2024",
             "precio": 32500,
             "descripcion": "Deportivo ligero, conocido por su manejo ágil, diseño elegante y experiencia de conducción divertida.",
-            "imagen": "/img/inventario/mx5.png",
+            "imagen": "../../img/inventario/mx5.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor de 2.0 litros y 4 cilindros, transmisión manual de 6 velocidades.",
                 "Potencia: 181 hp.",
@@ -345,7 +345,7 @@
             "nombre": "Honda Accord 2021",
             "precio": 25000,
             "descripcion": "Un sedán mediano que combina elegancia, eficiencia y tecnología avanzada.",
-            "imagen": "/img/inventario/accord.png",
+            "imagen": "../../img/inventario/accord.png",
             "caracteristicas": []
         },
         {
@@ -353,7 +353,7 @@
             "nombre": "Honda Pilot 2021",
             "precio": 35000,
             "descripcion": "SUV de tres filas que combina comodidad, tecnología avanzada y una capacidad robusta para toda la familia.",
-            "imagen": "/img/inventario/pilot.webp",
+            "imagen": "../../img/inventario/pilot.webp",
             "caracteristicas": [
                 "Motor y Transmisión: Motor V6 de 3.5 litros, Transmisión automática de 9 velocidades.",
                 "Potencia: 280 hp.",
@@ -370,7 +370,7 @@
             "nombre": "Honda Ridgeline 2024",
             "precio": 38000,
             "descripcion": "Una camioneta pickup mediana que combina versatilidad, comodidad y rendimiento robusto. ",
-            "imagen": "/img/inventario/ridgeline.avif",
+            "imagen": "../../img/inventario/ridgeline.avif",
             "caracteristicas": [
                 "Motor y Transmisión: Motor V6 de 3.5 litros, Transmisión automática de 9 velocidades.",
                 "Potencia: 280 hp.",
@@ -387,7 +387,7 @@
             "nombre": "Chevrolet Impala 2019",
             "precio": 32000,
             "descripcion": "Un sedán de tamaño completo con un interior espacioso y un maletero amplio.",
-            "imagen": "/img/inventario/impala.webp",
+            "imagen": "../../img/inventario/impala.webp",
             "caracteristicas": [
                 "Motor y Transmisión: Motor 2.5L 4 cilindros ECOTEC con tecnología de parada/arranque, transmisión automática de 6 velocidades.",
                 "Potencia: 197 hp.",
@@ -404,7 +404,7 @@
             "nombre": "Chevrolet Colorado 2022",
             "precio": 33500,
             "descripcion": "Amplia gama de configuraciones de cabina, así como tres opciones de motor de mucha potencia.",
-            "imagen": "/img/inventario/colorado.webp",
+            "imagen": "../../img/inventario/colorado.webp",
             "caracteristicas": [
                 "Motor y Transmisión: Motor 2.5L 4 cilindros, transmisión automática de 6 velocidades.",
                 "Potencia: 200 hp.",
@@ -421,7 +421,7 @@
             "nombre": "Hyundai Elantra 2024",
             "precio": 23000,
             "descripcion": "Sedán compacto que recibió un rediseño para este año modelo. Cuenta con un nuevo diseño frontal más afilado.",
-            "imagen": "/img/inventario/elantra.webp",
+            "imagen": "../../img/inventario/elantra.webp",
             "caracteristicas": [
                 "Motor y Transmisión: Motor 2.0L 4 cilindros, transmisión automática de 6 velocidades o transmisión manual de 6 velocidades disponible.",
                 "Potencia: 147 hp.",
@@ -438,7 +438,7 @@
             "nombre": "Hyundai Sonata 2024",
             "precio": 26000,
             "descripcion": "Equipado con un motor 2.5L de 191 caballos de fuerza acoplado a una transmisión automática de 8 velocidades. ",
-            "imagen": "/img/inventario/sonata.webp",
+            "imagen": "../../img/inventario/sonata.webp",
             "caracteristicas": [
                 "Motor y Transmisión: Motor 2.5L 4 cilindros, transmisión automática de 8 velocidades.",
                 "Potencia: 191 hp.",
@@ -455,7 +455,7 @@
             "nombre": "Hyundai Santa Fe 2022",
             "precio": 29000,
             "descripcion": "Un SUV de tamaño mediano con un diseño atractivo y un interior espacioso. ",
-            "imagen": "/img/inventario/santafe.webp",
+            "imagen": "../../img/inventario/santafe.webp",
             "caracteristicas": [
                 "Motor y Transmisión: Motor 2.5L 4 cilindros turbo, transmisión automática de 8 velocidades.",
                 "Potencia: 277 hp.",
@@ -472,7 +472,7 @@
             "nombre": "Ford Fusion 2020",
             "precio": 29000,
             "descripcion": "Un sedán bien equipado con un motor 2.5L de 175 caballos de fuerza acoplado a una transmisión automática.",
-            "imagen": "/img/inventario/fusion.webp",
+            "imagen": "../../img/inventario/fusion.webp",
             "caracteristicas": [
                 "Motor y Transmisión: Motor 2.5L 4 cilindros, transmisión automática de 6 velocidades.",
                 "Potencia: 175 hp.",
@@ -489,7 +489,7 @@
             "nombre": "Seat Ibiza Reference 2024",
             "precio": 18000,
             "descripcion": "Un hatchback compacto que destaca por su diseño moderno, eficiencia y funcionalidad.",
-            "imagen": "/img/inventario/ibiza.png",
+            "imagen": "../../img/inventario/ibiza.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor de gasolina disponible, transmisión manual de 5 velocidades",
                 "Potencia: Aproximadamente 80 hp",
@@ -505,7 +505,7 @@
             "nombre": "Seat Arona FR 2024",
             "precio": 22000,
             "descripcion": "SUV compacto que combina estilo deportivo con funcionalidad urbana y tecnología avanzada.",
-            "imagen": "/img/inventario/arona.png",
+            "imagen": "../../img/inventario/arona.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor de gasolina disponible, transmisión automática de 7 velocidades",
                 "Potencia: Alrededor de 150 hp",
@@ -521,7 +521,7 @@
             "nombre": "Seat Ateca FR Special Edition 2024",
             "precio": 28000,
             "descripcion": "SUV compacto y deportivo. Ofrece un equilibrio entre estilo urbano, rendimiento dinámico y tecnología avanzada.",
-            "imagen": "/img/inventario/ateca.png",
+            "imagen": "../../img/inventario/ateca.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor de gasolina disponible, transmisión automática de 7 velocidades.",
                 "Potencia: Alrededor de 190 hp.",
@@ -537,7 +537,7 @@
             "nombre": "Nissan Sentra 2024",
             "precio": 20000,
             "descripcion": "Sedán compacto que destaca por su diseño moderno, confort interior y tecnología avanzada. ",
-            "imagen": "/img/inventario/sentra.png",
+            "imagen": "../../img/inventario/sentra.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor de gasolina disponible, transmisión automática de variador continuo (CVT).",
                 "Potencia: Alrededor de 149 hp.",
@@ -553,7 +553,7 @@
             "nombre": "Nissan Altima 2024",
             "precio": 25000,
             "descripcion": "Sedán mediano que combina estilo elegante con rendimiento confiable y tecnología avanzada. ",
-            "imagen": "/img/inventario/altima.webp",
+            "imagen": "../../img/inventario/altima.webp",
             "caracteristicas": [
                 "Motor y Transmisión: Motor de gasolina disponible, transmisión automática Xtronic CVT.",
                 "Potencia: Alrededor de 188 hp.",
@@ -569,7 +569,7 @@
             "nombre": "Nissan Titan 2024",
             "precio": 42000,
             "descripcion": "Una pickup robusta que combina potencia, capacidad de carga y tecnología avanzada.",
-            "imagen": "/img/inventario/titan.png",
+            "imagen": "../../img/inventario/titan.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor V8 de gasolina disponible, transmisión automática de 9 velocidades.",
                 "Potencia: Alrededor de 400 hp.",
@@ -585,7 +585,7 @@
             "nombre": "Volkswagen Jetta 2022",
             "precio": 21500,
             "descripcion": "Sedán compacto conocido por su diseño elegante, confort interior y eficiencia de combustible.",
-            "imagen": "/img/inventario/jetta.png",
+            "imagen": "../../img/inventario/jetta.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor de gasolina disponible, transmisión automática Tiptronic de 8 velocidades.",
                 "Potencia: Varía según la versión, típicamente entre 147 hp y 228 hp en las versiones GLI.",
@@ -601,7 +601,7 @@
             "nombre": "Volkswagen Golf 2020",
             "precio": 17000,
             "descripcion": "Hatchback compacto reconocido por su diseño icónico, dinámica de conducción ágil y tecnología avanzada.",
-            "imagen": "/img/inventario/golf.png",
+            "imagen": "../../img/inventario/golf.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motores de gasolina y diésel disponibles, transmisión manual o automática de 6 velocidades.",
                 "Potencia: Varía según la versión, típicamente entre 110 hp y 300 hp en las versiones deportivas GTI y R.",
@@ -617,7 +617,7 @@
             "nombre": "Mitsubishi Outlander",
             "precio": 28000,
             "descripcion": "SUV familiar que combina un diseño robusto con espacio interior versátil y tecnología avanzada.",
-            "imagen": "/img/inventario/outlander.png",
+            "imagen": "../../img/inventario/outlander.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor de gasolina disponible, transmisión automática CVT de 8 velocidades.",
                 "Potencia: Alrededor de 181 hp.",
@@ -633,7 +633,7 @@
             "nombre": "Mitsubishi Eclipse Cross 2020",
             "precio": 26500,
             "descripcion": "Este SUV ofrece un equilibrio entre estilo deportivo y funcionalidad para adaptarse a cualquier sitación. ",
-            "imagen": "/img/inventario/eclipse.png",
+            "imagen": "../../img/inventario/eclipse.png",
             "caracteristicas": [
                 "Motor y Transmisión: Motor de gasolina disponible, transmisión automática CVT de 8 velocidades.",
                 "Potencia: Alrededor de 152 hp.",
@@ -649,7 +649,7 @@
             "nombre": "Mitsubishi Montero Sport 2024",
             "precio": 48000,
             "descripcion": "Una SUV de lujo y alto desempeño con un diseño audaz y refinado.",
-            "imagen": "/img/inventario/montero.png",
+            "imagen": "../../img/inventario/montero.png",
             "caracteristicas": [
                 "Diseño exterior impresionante con faros afilados, parrilla sólida, llantas de aleación de 16, 18, 19 y luces traseras distintivas",
                 "Interior lujoso y espacioso con asientos delanteros eléctricos y ajuste lumbar",
